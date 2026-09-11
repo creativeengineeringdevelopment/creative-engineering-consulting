@@ -12,6 +12,7 @@ export const ROUTES = {
   caseStudies: "/case-studies",
   contact: "/contact",
   howItWorks: "/how-it-works",
+  pricing: "/pricing",
   unlockd: "/unlockd",
   sandbox: "/sandbox",
 } as const;

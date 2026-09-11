@@ -64,12 +64,26 @@ Hero → Problem → Product (Edge fleet) → How it works (journey) → Proof �
 ## Shape & spacing
 
 - Corners: `rounded-sm` everywhere. No pills, no `rounded-xl` cards.
+  Sole exception: `Badge` (status pill) via `components/primitives.tsx`.
 - Section padding: `py-20 sm:py-24`; heroes `pt-24 sm:pt-28`.
 - Container: `mx-auto max-w-6xl px-6 lg:px-8`.
 - Section separators: `border-b border-zinc-900` on the `<section>`.
 - Cards: `border border-zinc-800/80 bg-zinc-900/25 p-6` (or `p-8` for feature cards).
 - Buttons: shared `buttonPrimaryClass` / `buttonSecondaryClass` from
   `lib/constants.ts`. Never hand-roll button styles.
+
+### Shared primitives (use these, don't re-roll)
+
+`components/primitives.tsx` is the code form of this file:
+
+- `Section` — border-b + container + rhythm padding; `tone` = default / muted
+  (`bg-zinc-950/40`) / solid; `hero` for hero padding.
+- `Eyebrow` / `MicroLabel` — the two label sizes.
+- `Card` / `Card feature` — the only card shape.
+- `CtaPanel` — the only sanctioned gradient surface.
+- `Badge` — the only `rounded-full` element.
+- `SectionHeader` (components/home) stays the H2 block; it will move under
+  primitives in a later pass.
 
 ## Composition rules
 

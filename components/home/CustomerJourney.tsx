@@ -29,7 +29,7 @@ const stages = [
 
 export function CustomerJourney() {
   return (
-    <section className="border-b border-zinc-900 bg-zinc-950/40" aria-labelledby="journey-heading">
+    <section className="border-b border-zinc-900" aria-labelledby="journey-heading">
       <div className="mx-auto max-w-6xl px-6 py-20 sm:py-24 lg:px-8">
         <SectionHeader
           eyebrow="From curiosity to ownership"

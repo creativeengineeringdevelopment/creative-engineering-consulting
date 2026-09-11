@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { CTA } from "@/components/how-it-works/CTA";
 import { Clarification } from "@/components/how-it-works/Clarification";
 import { FitSection } from "@/components/how-it-works/FitSection";
+import { Founder } from "@/components/how-it-works/Founder";
 import { Hero } from "@/components/how-it-works/Hero";
 import { SystemFlow } from "@/components/how-it-works/SystemFlow";
 import { SystemLayers } from "@/components/how-it-works/SystemLayers";
@@ -30,6 +31,7 @@ export default function HowItWorksPage() {
       <WhyItMatters />
       <OperatingPrinciples />
       <LaunchSequence />
+      <Founder />
       <FitSection />
       <CTA />
     </main>

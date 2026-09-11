@@ -122,10 +122,17 @@ Hero → Problem → Product (Edge fleet) → How it works (journey) → Proof �
 - **No stock photography, no fake dashboards.** Product imagery is code-rendered
   in `components/product-shots/` as `ConsoleFrame`-based surfaces — the console
   as it actually reads, on synthetic data.
+- **Synthetic data only. Never commit a screenshot of a real console.** A real
+  capture is forbidden if it contains any of: real person names, emails, phone
+  numbers, physical addresses, investor/contact/deal records, dollar amounts
+  tied to a person, employee names, or any identifier that maps to a real human
+  or account. Dev-bypass surfaces are backed by live Neon data — assume PII is
+  present unless a screen is provably synthetic/empty.
 - Every shot carries a `Synthetic data` tag in its window chrome; figures get a
   mono caption naming the surface and the synthetic-data fact.
 - Shots are honest stand-ins: they show the shape of the product (console,
-  inbox triage, pipeline, deployments) without claiming a live screenshot.
+  inbox triage, pipeline, deployments) without claiming a live screenshot, and
+  without exposing real customer or employee data.
 - Frames stay dark in both themes — they depict the dark console instrument,
   not the marketing surface.
 - One shot per page section, mounted where it advances that section's point.

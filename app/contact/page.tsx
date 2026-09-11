@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Hero } from "@/components/contact/Hero";
-import { Prep } from "@/components/contact/Prep";
+import { IntakeForm } from "@/components/contact/IntakeForm";
 import { StartConversation } from "@/components/contact/StartConversation";
 import { SITE } from "@/lib/constants";
 
@@ -20,7 +20,7 @@ export default function ContactPage() {
   return (
     <main id="main-content">
       <Hero />
-      <Prep />
+      <IntakeForm />
       <StartConversation />
     </main>
   );

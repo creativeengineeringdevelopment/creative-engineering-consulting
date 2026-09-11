@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Boundaries } from "@/components/sandbox/Boundaries";
 import { CTA } from "@/components/sandbox/CTA";
 import { Hero } from "@/components/sandbox/Hero";
+import { Journey } from "@/components/sandbox/Journey";
 import { Ownership } from "@/components/sandbox/Ownership";
 import { SITE } from "@/lib/constants";
 
@@ -21,6 +22,7 @@ export default function SandboxPage() {
   return (
     <main id="main-content">
       <Hero />
+      <Journey />
       <Ownership />
       <Boundaries />
       <CTA />

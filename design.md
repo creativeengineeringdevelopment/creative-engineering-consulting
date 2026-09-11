@@ -137,6 +137,25 @@ Hero → Problem → Product (Edge fleet) → How it works (journey) → Proof �
   not the marketing surface.
 - One shot per page section, mounted where it advances that section's point.
 
+## Onboarding sequence (post-sandbox)
+
+The post-sandbox flow is a defined contract, not a dead-end button. The single
+source of truth is `lib/onboarding.ts`; both surfaces render from it so they
+cannot drift.
+
+- **Five-step journey** (surfaced on `/sandbox`): explore → name the gap →
+  tell us about your firm → pick the path → scoped reply in 5 business days.
+- **Four-step intake form** (on `/contact`): identity → firm → workflow →
+  path & consent. Progressive disclosure — one idea per step, minimal data at
+  each.
+- **Data-collection rules:** bands and options over precise figures (AUM,
+  funds, team size) so we qualify fit without harvesting sensitive data; the
+  workflow step asks for one process trigger→done plus where it hurts; consent
+  is a first-class step, never a buried footer checkbox.
+- **The confirmation contract** states exactly what happens next: a human
+  replies within 5 business days; no auto-provisioning, no credential requests,
+  nothing deployed until the prospect chooses.
+
 ## Workflow rules for agents editing this site
 
 - Read this file before editing any component.

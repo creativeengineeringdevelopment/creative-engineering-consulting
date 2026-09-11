@@ -10,7 +10,7 @@ export function SiteFooter() {
           © {year} {SITE.name}. All rights reserved.
         </p>
         <p className="font-mono text-xs text-zinc-600">
-          Execution systems · Built to run
+          Creative Engineering studio · Unlockd platform
         </p>
       </div>
     </footer>

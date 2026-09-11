@@ -13,19 +13,20 @@ export function Hero() {
             id="audit-hero-heading"
             className="font-serif text-4xl font-medium leading-[1.08] tracking-tight text-zinc-50 sm:text-5xl"
           >
-            System Audit
+            Operating System Diagnostic
           </h1>
           <p className="text-lg leading-relaxed text-zinc-400 sm:text-xl">
-            We map how your operations actually run, where execution breaks, and what
-            should be system-driven.
+            The launch offer is a paid diagnostic for founder-led operators who need
+            to know what owns truth, where execution breaks, and which workflows are
+            safe to automate first.
           </p>
           <p className="max-w-2xl text-base leading-relaxed text-zinc-500">
-            This is not a sales call. It&apos;s a structured diagnosis of how your business
-            executes.
+            In one to two weeks, you leave with an operating map, risk register,
+            90-day roadmap, and a build proposal only if the proof supports it.
           </p>
           <div className="pt-2">
             <Link href="#book-audit" className={buttonPrimaryClass}>
-              Book a System Audit
+              Book diagnostic
             </Link>
           </div>
         </div>

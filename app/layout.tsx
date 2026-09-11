@@ -21,7 +21,7 @@ const ibmPlexSans = IBM_Plex_Sans({
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: `${SITE.name} · Execution systems for complex operations`,
+    default: `${SITE.name} · Agentic operating systems for investment managers`,
     template: `%s · ${SITE.name}`,
   },
   description: SITE.tagline,

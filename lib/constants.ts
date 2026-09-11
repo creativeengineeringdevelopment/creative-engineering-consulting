@@ -1,16 +1,19 @@
 export const SITE = {
-  name: "Creative Engineering Consulting",
+  name: "Creative Engineering",
   /** Horizontal lockup (PNG in /public). */
   logoSrc: "/logo.png",
   tagline:
-    "We structure the workflows you already have into AI-powered systems that run automatically—follow-up, routing, and decisions without manual effort.",
+    "A product-led operating platform for investment managers. Explore a complete synthetic firm free, deploy into infrastructure you own, expand into a custom agentic operating system.",
   url: "https://creative-engineering-consulting.vercel.app",
 } as const;
 
 export const ROUTES = {
   audit: "/audit",
+  caseStudies: "/case-studies",
   contact: "/contact",
   howItWorks: "/how-it-works",
+  unlockd: "/unlockd",
+  sandbox: "/sandbox",
 } as const;
 
 function readPublicEnv(key: string): string | undefined {
@@ -21,15 +24,15 @@ function readPublicEnv(key: string): string | undefined {
 /** Calendly, Cal.com, or similar — opens in a new tab when set. */
 export const PUBLIC_BOOKING_URL = readPublicEnv("NEXT_PUBLIC_BOOKING_URL");
 
-/** Public inbox for audit requests (mailto on CTAs when set). */
+/** Public inbox for diagnostic requests (mailto on CTAs when set). */
 export const PUBLIC_CONTACT_EMAIL = readPublicEnv("NEXT_PUBLIC_CONTACT_EMAIL");
 
 export function systemAuditMailto(): string | null {
   if (!PUBLIC_CONTACT_EMAIL) return null;
   const params = new URLSearchParams({
-    subject: "System audit request",
+    subject: "Operating System Diagnostic request",
     body:
-      "Company:\nPrimary workflow you want examined:\nTime zone:\nAnything else we should know:\n",
+      "Company:\nPrimary workflow you want examined:\nSystems involved:\nTime zone:\nAnything else we should know:\n",
   });
   return `mailto:${PUBLIC_CONTACT_EMAIL}?${params.toString()}`;
 }

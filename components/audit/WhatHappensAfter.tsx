@@ -1,7 +1,7 @@
 const steps = [
-  { label: "Audit", body: "We identify the system gaps." },
-  { label: "Build", body: "We install structured execution." },
-  { label: "Operate", body: "We refine and scale." },
+  { label: "Diagnose", body: "We map truth, owner dependency, proof gaps, and agent readiness." },
+  { label: "Install", body: "We build the first operating layer around the highest-leverage workflow." },
+  { label: "Transfer", body: "We hand over dashboards, runbooks, acceptance gates, and owner routines." },
 ] as const;
 
 export function WhatHappensAfter() {

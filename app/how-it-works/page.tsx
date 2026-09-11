@@ -6,6 +6,8 @@ import { Hero } from "@/components/how-it-works/Hero";
 import { SystemFlow } from "@/components/how-it-works/SystemFlow";
 import { SystemLayers } from "@/components/how-it-works/SystemLayers";
 import { WhyItMatters } from "@/components/how-it-works/WhyItMatters";
+import { LaunchSequence } from "@/components/home/LaunchSequence";
+import { OperatingPrinciples } from "@/components/home/OperatingPrinciples";
 import { SITE } from "@/lib/constants";
 
 export const metadata: Metadata = {
@@ -26,6 +28,8 @@ export default function HowItWorksPage() {
       <SystemLayers />
       <Clarification />
       <WhyItMatters />
+      <OperatingPrinciples />
+      <LaunchSequence />
       <FitSection />
       <CTA />
     </main>

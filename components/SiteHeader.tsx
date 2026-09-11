@@ -22,14 +22,26 @@ export function SiteHeader() {
         </Link>
         <nav aria-label="Primary" className="flex items-center gap-3">
           <Link
-            href={ROUTES.howItWorks}
+            href={ROUTES.unlockd}
             className="hidden text-sm text-zinc-400 transition hover:text-zinc-200 sm:inline"
           >
-            How it works
+            Unlockd
           </Link>
-          <Link href={ROUTES.audit} className={`${buttonSecondaryClass} !py-2 text-xs sm:text-sm`}>
-            <span className="sm:hidden">Book audit</span>
-            <span className="hidden sm:inline">Book a System Audit</span>
+          <Link
+            href={ROUTES.howItWorks}
+            className="hidden text-sm text-zinc-400 transition hover:text-zinc-200 md:inline"
+          >
+            Method
+          </Link>
+          <Link
+            href={ROUTES.caseStudies}
+            className="hidden text-sm text-zinc-400 transition hover:text-zinc-200 lg:inline"
+          >
+            Proof
+          </Link>
+          <Link href={ROUTES.sandbox} className={`${buttonSecondaryClass} !py-2 text-xs sm:text-sm`}>
+            <span className="sm:hidden">Sandbox</span>
+            <span className="hidden sm:inline">Explore the sandbox</span>
           </Link>
         </nav>
       </div>

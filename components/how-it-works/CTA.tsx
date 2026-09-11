@@ -14,7 +14,7 @@ export function CTA() {
               id="how-it-works-cta-heading"
               className="mt-4 font-serif text-3xl font-medium tracking-tight text-zinc-50 sm:text-4xl"
             >
-              Start with a system audit
+              Start with an operating-system diagnostic
             </h2>
             <p className="mt-4 text-base leading-relaxed text-zinc-400 sm:text-lg">
               We map how your operations actually run, where they break, and what should be
@@ -22,7 +22,7 @@ export function CTA() {
             </p>
             <div className="mt-10 flex justify-center">
               <Link href={ROUTES.audit} className={buttonPrimaryClass}>
-                Book a System Audit
+                Book an Operating System Diagnostic
               </Link>
             </div>
           </div>

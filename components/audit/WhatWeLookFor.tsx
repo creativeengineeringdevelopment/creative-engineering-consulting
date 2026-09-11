@@ -1,10 +1,10 @@
 const signals = [
-  "Inconsistent follow-up",
-  "Leads slipping through the cracks",
-  "Manual processes everywhere",
-  "Disconnected tools",
-  "Unclear workflows or ownership",
-  "Reliance on people instead of systems",
+  "CRM, portal, inbox, spreadsheet, and reporting truth do not match",
+  "A founder, CTO, or operator is the only person who knows how work really gets done",
+  "Outbound, support, investor, or revenue workflows have no proof ledger",
+  "Dashboards exist but do not drive decisions or owner accountability",
+  "AI has been mandated before workflow truth is clean",
+  "A transition, migration, or growth push exposed operational fragility",
 ] as const;
 
 export function WhatWeLookFor() {

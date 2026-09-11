@@ -14,19 +14,19 @@ export function FinalCTA() {
               id="final-cta-heading"
               className="mt-4 font-serif text-3xl font-medium tracking-tight text-zinc-50 sm:text-4xl"
             >
-              Book a System Audit
+              Launch a complete synthetic firm. Free.
             </h2>
             <p className="mt-4 text-base leading-relaxed text-zinc-400">
-              We identify where execution breaks, where opportunities are lost, and
-              what should be system-driven first. You leave with a clear picture of
-              what to fix—not a generic roadmap PDF.
+              Understand the future of your operation in minutes, not a sales cycle.
+              When the system earns it, deploy into infrastructure you own — or book
+              a diagnostic for the workflows that need custom judgment.
             </p>
             <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
-              <Link href={ROUTES.audit} className={buttonPrimaryClass}>
-                Book a System Audit
+              <Link href={ROUTES.sandbox} className={buttonPrimaryClass}>
+                Explore the sandbox
               </Link>
-              <Link href={ROUTES.contact} className={buttonSecondaryClass}>
-                Contact
+              <Link href={ROUTES.audit} className={buttonSecondaryClass}>
+                Book a diagnostic
               </Link>
             </div>
           </div>

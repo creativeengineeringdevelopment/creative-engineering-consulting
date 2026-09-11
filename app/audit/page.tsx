@@ -9,11 +9,11 @@ import { WhoItsFor } from "@/components/audit/WhoItsFor";
 import { SITE } from "@/lib/constants";
 
 export const metadata: Metadata = {
-  title: "System Audit",
+  title: "Operating System Diagnostic",
   description:
-    "Structured diagnosis of how your business executes: how operations actually run, where execution breaks, and what should be system-driven—not a sales call.",
+    "A paid one- to two-week diagnostic that maps operating truth, owner dependencies, proof gaps, and a 90-day build roadmap before broad AI automation.",
   openGraph: {
-    title: `System Audit · ${SITE.name}`,
+    title: `Operating System Diagnostic · ${SITE.name}`,
     description:
       "Map how your operations run, find failure points, and prioritize what should be system-driven.",
   },

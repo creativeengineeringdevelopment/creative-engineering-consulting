@@ -13,11 +13,11 @@ import {
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Request a System Audit or ask about execution systems for your operations.",
+    "Request an Operating System Diagnostic or ask about execution systems for your operations.",
   openGraph: {
     title: `Contact · ${SITE.name}`,
     description:
-      "Book a structured system audit or start a conversation about how your operations execute.",
+      "Book a structured operating-system diagnostic or start a conversation about how your operations execute.",
   },
 };
 
@@ -42,11 +42,11 @@ export default function ContactPage() {
               id="contact-hero-heading"
               className="font-serif text-4xl font-medium leading-[1.08] tracking-tight text-zinc-50 sm:text-5xl"
             >
-              Book a System Audit
+              Book an Operating System Diagnostic
             </h1>
             <p className="text-lg leading-relaxed text-zinc-400 sm:text-xl">
               Tell us which workflow matters most and where execution breaks today. We
-              reply with timing, prep, and whether the audit is the right next step.
+              reply with timing, prep, and whether the diagnostic is the right next step.
             </p>
             <p className="max-w-2xl text-base leading-relaxed text-zinc-500">
               This is not a sales call—it is a structured look at how your operations
@@ -55,7 +55,7 @@ export default function ContactPage() {
                 href={ROUTES.audit}
                 className="text-zinc-300 underline decoration-zinc-600 underline-offset-4 transition hover:text-zinc-100"
               >
-                System Audit overview
+                Operating System Diagnostic overview
               </Link>{" "}
               first if you want the full picture of what you get.
             </p>
@@ -112,10 +112,10 @@ export default function ContactPage() {
               </h2>
               <p className="mt-4 text-sm leading-relaxed text-zinc-500">
                 {PUBLIC_BOOKING_URL
-                  ? "Pick a time that works for you. We will confirm prep and focus areas before the audit."
+                  ? "Pick a time that works for you. We will confirm prep and focus areas before the diagnostic."
                   : mailto
                     ? "Send one email from your work address—we will follow up with availability and prep."
-                    : "If we are already connected, continue the thread you have with us and mention you want a System Audit. Otherwise, ask for an introduction—we take audits by fit, not volume."}
+                    : "If we are already connected, continue the thread you have with us and mention you want an Operating System Diagnostic. Otherwise, ask for an introduction—we take diagnostics by fit, not volume."}
               </p>
 
               {showDevHint ? (
@@ -135,7 +135,7 @@ export default function ContactPage() {
                   </BookingPrimaryLink>
                 ) : null}
                 <Link href={ROUTES.audit} className={buttonSecondaryClass}>
-                  System Audit details
+                  Operating System Diagnostic details
                 </Link>
                 <Link href="/" className={buttonSecondaryClass}>
                   Home

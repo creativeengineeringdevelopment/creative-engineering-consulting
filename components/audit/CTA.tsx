@@ -19,11 +19,11 @@ export function CTA() {
               id="audit-cta-heading"
               className="mt-4 font-serif text-3xl font-medium tracking-tight text-zinc-50 sm:text-4xl"
             >
-              Start with a system audit
+              Start with an operating-system diagnostic
             </h2>
             <p className="mt-4 text-base leading-relaxed text-zinc-400">
-              We&apos;ll show you exactly where execution breaks and what should be
-              system-driven first.
+              We&apos;ll show you what is breaking, what is owner-dependent, and which
+              workflows should become system-driven first.
             </p>
 
             <div className="mt-10 rounded-sm border border-dashed border-zinc-700/90 bg-zinc-950/50 px-6 py-8 text-left sm:text-center">
@@ -31,13 +31,13 @@ export function CTA() {
                 Scheduling
               </p>
               <p className="mt-2 text-sm leading-relaxed text-zinc-500">
-                Calendly or another scheduler can live here. Until that&apos;s wired, book
-                through contact and we&apos;ll confirm time and prep.
+                The diagnostic is designed as a paid first step. Until scheduling is
+                wired, book through contact and we&apos;ll confirm scope, time, and prep.
               </p>
             </div>
 
             <div className="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
-              <BookingPrimaryLink>Book a System Audit</BookingPrimaryLink>
+              <BookingPrimaryLink>Book diagnostic</BookingPrimaryLink>
               <Link href={ROUTES.howItWorks} className={buttonSecondaryClass}>
                 How it works
               </Link>

@@ -1,10 +1,10 @@
 const deliverables = [
-  "A clear execution map of your current system",
-  "Identified breakdowns and failure points",
-  "Where leads or opportunities are being lost",
-  "Defined workflow opportunities",
-  "A prioritized plan for what should be system-driven",
-  "Where AI should (and should not) be used",
+  "A source-of-truth map across systems, data, workflows, and owners",
+  "A dependency register showing which people or vendors quietly hold the operation together",
+  "Proof gaps where actions, handoffs, sends, approvals, or exceptions cannot be verified",
+  "A ranked list of workflows that should be system-driven first",
+  "An agent-readiness assessment: where AI can execute safely and where it should not",
+  "A 90-day transformation plan with build scope, owners, and acceptance gates",
 ] as const;
 
 export function WhatYouGet() {

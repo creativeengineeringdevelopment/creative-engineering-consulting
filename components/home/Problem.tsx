@@ -2,34 +2,34 @@ import { SectionHeader } from "@/components/home/SectionHeader";
 
 const painPoints = [
   {
-    title: "Disconnected tools",
-    body: "CRM, inbox, and spreadsheets each hold part of the story. Handoffs get dropped and context gets lost—so deals stall and mistakes creep in.",
+    title: "Truth is split across systems",
+    body: "The CRM, portal, spreadsheets, inboxes, vendor tools, and dashboards all disagree. Nobody knows which system actually owns the answer.",
   },
   {
-    title: "Manual follow-up",
-    body: "Leads and cases depend on who remembered to ping whom. Response times swing, opportunities go cold, and revenue leaks in the gaps.",
+    title: "One person is the operating system",
+    body: "Revenue, investor, support, data, and campaign workflows depend on an overloaded founder, CTO, or operator remembering the hidden path.",
   },
   {
-    title: "Inconsistent execution",
-    body: "The same situation gets handled different ways depending on the day. Customers feel it, teams burn time reconciling, and speed never stabilizes.",
+    title: "Execution has no proof",
+    body: "Emails, tasks, approvals, handoffs, and exceptions happen somewhere, but there is no reliable ledger that proves what happened and what is next.",
   },
   {
-    title: "Undefined workflows",
-    body: "How work should run lives in people's heads. Without a clear path, you cannot hold a standard, spot delays early, or fix what breaks.",
+    title: "AI amplifies the mess",
+    body: "Adding agents before workflow truth creates faster confusion. The operating layer has to come before broad automation.",
   },
 ];
 
 export function Problem() {
   return (
     <section
-      className="border-b border-zinc-900 bg-zinc-950/40"
+      className="border-b border-zinc-900"
       aria-labelledby="problem-heading"
     >
       <div className="mx-auto max-w-6xl px-6 py-20 sm:py-24 lg:px-8">
         <SectionHeader
-          eyebrow="The problem"
-          title="Tools everywhere. The work still doesn't run itself."
-          description="Most teams have software. Few have a single way work moves from first touch to done—with clear ownership, timing, and outcomes."
+          eyebrow="The problem worth solving"
+          title="Investment firms don't lack software. They lack operational coherence."
+          description="The CRM, investor portal, email platform, spreadsheets, document rooms, reporting systems, vendors, and individual operators each hold a different fragment of reality. The fragmentation is a hidden operating tax."
           titleId="problem-heading"
         />
         <div className="mt-14 grid gap-4 sm:grid-cols-2">
@@ -46,9 +46,10 @@ export function Problem() {
           ))}
         </div>
         <p className="mt-12 max-w-2xl border-l border-zinc-700 pl-6 text-sm leading-relaxed text-zinc-500">
-          When how you operate is fragmented, hiring more people adds cost before
-          it adds reliability. The fix is a system that runs the same way every
-          time—not another app to babysit.
+          AI initiatives stall because the underlying facts, permissions, owners,
+          and acceptance criteria are unresolved. The fix is a coherent operating
+          environment you can explore before you commit — then deploy into
+          infrastructure you own.
         </p>
       </div>
     </section>

@@ -1,9 +1,9 @@
 const reviewAreas = [
-  "How leads enter the system",
-  "How follow-up happens",
-  "How decisions are made",
-  "How tools are used",
-  "Where handoffs occur",
+  "Where each critical record is created, changed, trusted, and reported",
+  "How work moves from signal to owner to action to proof",
+  "Which workflows depend on tribal knowledge instead of runbooks",
+  "Which integrations are glue, which are infrastructure, and which are risk",
+  "Where Unlockd-style agent runtime would help after the operating layer is clean",
 ] as const;
 
 export function WhatThisIs() {
@@ -18,7 +18,8 @@ export function WhatThisIs() {
             What this is
           </h2>
           <p className="text-base leading-relaxed text-zinc-400 sm:text-lg">
-            We review how work actually moves through your operation.
+            A structured operating-system diagnosis for companies that cannot keep
+            scaling on disconnected SaaS, manual heroics, and unclear ownership.
           </p>
         </div>
 
@@ -32,7 +33,8 @@ export function WhatThisIs() {
         </ul>
 
         <p className="mt-10 max-w-2xl border-l border-zinc-700 pl-6 text-sm leading-relaxed text-zinc-500">
-          We don&apos;t rely on assumptions—we map how things actually work.
+          We do not prescribe agents until the source-of-truth map, workflow ownership,
+          and acceptance proof are visible.
         </p>
       </div>
     </section>

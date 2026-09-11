@@ -28,7 +28,7 @@ export function Hero() {
           </p>
           <div className="flex flex-col gap-3 pt-2 sm:flex-row sm:items-center">
             <Link href={ROUTES.audit} className={buttonPrimaryClass}>
-              Book a System Audit
+              Book an Operating System Diagnostic
             </Link>
             <Link href="/" className={buttonSecondaryClass}>
               Back to home

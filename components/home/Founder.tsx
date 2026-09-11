@@ -17,18 +17,20 @@ export function Founder() {
               Jared Lutz
             </h2>
             <p className="mt-2 text-sm text-zinc-400">
-              CTO / Systems architect
+              Former investment-manager CTO · Systems architect · Founder
             </p>
           </div>
           <div className="space-y-6 border-l border-zinc-800 pl-8 lg:pl-12">
             <p className="text-base leading-relaxed text-zinc-300">
-              Jared builds systems that execute operations: turning fragmented tools
-              and tribal process into structured runs with clear states, handoffs, and
-              outcomes.
+              Jared spent the last year as CTO of a real-estate investment manager,
+              compressing investor operations, CRM, portal, communications, reporting,
+              vendor administration, and agent execution into owned software systems.
             </p>
             <p className="text-sm leading-relaxed text-zinc-500">
-              His focus is execution—how work actually completes—not feature lists,
-              slide decks, or one-off scripts that quietly rot.
+              Creative Engineering and Unlockd are that year externalized: a free
+              synthetic firm to explore, a deployment engine that respects customer
+              ownership, and a studio that transforms the workflows where custom
+              judgment creates real value.
             </p>
             <Link href={ROUTES.contact} className={buttonSecondaryClass}>
               Discuss your operations

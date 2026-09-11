@@ -1,8 +1,8 @@
 const criteria = [
-  "Businesses with real lead flow",
-  "High-value transactions",
-  "Operational complexity",
-  "Teams handling multiple steps and tools",
+  "Founder-led companies with real revenue and too much operator dependency",
+  "Capital, investor, lending, marketplace, or high-ticket B2B workflows",
+  "Teams with CRM, portal, reporting, inbox, and spreadsheet truth in conflict",
+  "Operators preparing for a transition, migration, acquisition, or growth push",
 ] as const;
 
 export function WhoItsFor() {
@@ -28,7 +28,8 @@ export function WhoItsFor() {
         </ul>
 
         <p className="mt-10 max-w-2xl border-l border-zinc-700 pl-6 text-sm leading-relaxed text-zinc-500">
-          If your business depends on consistent execution, this is where to start.
+          If the next stage requires cleaner execution before more headcount or more
+          AI tools, this is where to start.
         </p>
       </div>
     </section>

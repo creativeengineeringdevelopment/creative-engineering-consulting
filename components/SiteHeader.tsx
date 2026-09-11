@@ -4,6 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useState } from "react";
+import { ThemeToggle } from "@/components/ThemeToggle";
 import { ROUTES, SITE, buttonSecondaryClass } from "@/lib/constants";
 
 const NAV_LINKS = [
@@ -57,6 +58,7 @@ export function SiteHeader() {
               {label}
             </Link>
           ))}
+          <ThemeToggle />
           <Link
             href={ROUTES.sandbox}
             className={`${buttonSecondaryClass} !py-2 text-xs sm:text-sm`}
@@ -66,6 +68,7 @@ export function SiteHeader() {
         </nav>
 
         <div className="flex items-center gap-3 md:hidden">
+          <ThemeToggle />
           <Link
             href={ROUTES.sandbox}
             className={`${buttonSecondaryClass} !py-2 text-xs`}

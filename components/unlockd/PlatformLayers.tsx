@@ -1,4 +1,5 @@
 import { Card, Eyebrow, MicroLabel, Section } from "@/components/primitives";
+import { InboxTriage } from "@/components/product-shots/InboxTriage";
 
 const layers = [
   {
@@ -31,6 +32,14 @@ export function PlatformLayers() {
         >
           Edge, Factory, agents, and a micro-app model.
         </h2>
+      </div>
+      <div className="mt-14 grid items-center gap-8 lg:grid-cols-2">
+        <InboxTriage />
+        <p className="max-w-md text-sm leading-relaxed text-zinc-500">
+          The inbox is the agent layer&apos;s home: every thread triaged, every
+          reply drafted, every action gated on your approval. Nothing sends
+          without a human — the operator stays the principal.
+        </p>
       </div>
       <div className="mt-14 grid gap-4 md:grid-cols-2">
         {layers.map((layer, index) => (

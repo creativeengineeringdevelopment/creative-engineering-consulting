@@ -1,4 +1,5 @@
 import { Card, Eyebrow, Section } from "@/components/primitives";
+import { PipelineReview } from "@/components/product-shots/PipelineReview";
 
 const deployTargets = [
   { name: "Cloudflare", role: "Application hosting and object storage" },
@@ -37,6 +38,12 @@ export function Ownership() {
             </Card>
           ))}
         </div>
+      </div>
+      <div className="mt-14">
+        <PipelineReview />
+        <figcaption className="mt-3 font-mono text-[10px] uppercase tracking-widest text-zinc-600">
+          The same console you explored here, running on your accounts — synthetic data
+        </figcaption>
       </div>
     </Section>
   );

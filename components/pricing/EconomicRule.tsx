@@ -1,4 +1,5 @@
 import { Eyebrow, Section } from "@/components/primitives";
+import { DeploymentMap } from "@/components/product-shots/DeploymentMap";
 
 const rules = [
   {
@@ -43,6 +44,12 @@ export function EconomicRule() {
           </div>
         ))}
         <div className="border-t border-zinc-800/80" />
+      </div>
+      <div className="mt-14">
+        <DeploymentMap />
+        <figcaption className="mt-3 font-mono text-[10px] uppercase tracking-widest text-zinc-600">
+          A live deployment — your accounts, named providers, synthetic data
+        </figcaption>
       </div>
     </Section>
   );

@@ -1,14 +1,110 @@
 @import "tailwindcss";
 
+/*
+ * Theme control (design.md: palette rule addendum).
+ * Dark is the default theme — :root is dark. `.light` on <html> inverts to the
+ * paper theme. Every component utility resolves through these variables, so
+ * no component code changes when the theme flips.
+ */
 :root {
   color-scheme: dark;
   --background: #030304;
   --foreground: #f4f4f5;
+
+  /* zinc ramp */
+  --zinc-50: #fafafa;
+  --zinc-100: #f4f4f5;
+  --zinc-200: #e4e4e7;
+  --zinc-300: #d4d4d8;
+  --zinc-400: #a1a1aa;
+  --zinc-500: #71717a;
+  --zinc-600: #52525b;
+  --zinc-700: #3f3f46;
+  --zinc-800: #27272a;
+  --zinc-900: #18181b;
+  --zinc-950: #09090b;
+
+  /* accent ramp — readable on dark */
+  --sky-300: #7dd3fc;
+  --sky-400: #38bdf8;
+  --sky-500: #0ea5e9;
+  --emerald-300: #6ee7b7;
+  --emerald-400: #34d399;
+  --emerald-500: #10b981;
+  --red-400: #f87171;
+  --yellow-400: #facc15;
+  --amber-100: #fef3c7;
+  --amber-200: #fde68a;
+  --amber-900: #78350f;
+  --amber-950: #451a03;
+}
+
+.light {
+  color-scheme: light;
+  --background: #f4f4f2;
+  --foreground: #18181b;
+
+  /*
+   * Paper ramp: borders and surfaces read as *light* grays (not near-white),
+   * so the same contrast gaps that structure the dark theme survive the flip.
+   * zinc-950 is the lightest surface (cards, CTA panel end); --background sits
+   * one step darker so bordered surfaces still lift off the page.
+   */
+  --zinc-50: #09090b;
+  --zinc-100: #18181b;
+  --zinc-200: #27272a;
+  --zinc-300: #3f3f46;
+  --zinc-400: #52525b;
+  --zinc-500: #71717a;
+  --zinc-600: #9d9da6;
+  --zinc-700: #cfcfd4;
+  --zinc-800: #dedde0;
+  --zinc-900: #e9e8ea;
+  --zinc-950: #fbfbf9;
+
+  /* accent ramp — darker steps keep AA contrast on paper */
+  --sky-300: #0284c7;
+  --sky-400: #0369a1;
+  --sky-500: #075985;
+  --emerald-300: #059669;
+  --emerald-400: #047857;
+  --emerald-500: #065f46;
+  --red-400: #dc2626;
+  --yellow-400: #ca8a04;
+  --amber-100: #713f12;
+  --amber-200: #854d0e;
+  --amber-900: #fef3c7;
+  --amber-950: #fef9c3;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  --color-zinc-50: var(--zinc-50);
+  --color-zinc-100: var(--zinc-100);
+  --color-zinc-200: var(--zinc-200);
+  --color-zinc-300: var(--zinc-300);
+  --color-zinc-400: var(--zinc-400);
+  --color-zinc-500: var(--zinc-500);
+  --color-zinc-600: var(--zinc-600);
+  --color-zinc-700: var(--zinc-700);
+  --color-zinc-800: var(--zinc-800);
+  --color-zinc-900: var(--zinc-900);
+  --color-zinc-950: var(--zinc-950);
+
+  --color-sky-300: var(--sky-300);
+  --color-sky-400: var(--sky-400);
+  --color-sky-500: var(--sky-500);
+  --color-emerald-300: var(--emerald-300);
+  --color-emerald-400: var(--emerald-400);
+  --color-emerald-500: var(--emerald-500);
+  --color-red-400: var(--red-400);
+  --color-yellow-400: var(--yellow-400);
+  --color-amber-100: var(--amber-100);
+  --color-amber-200: var(--amber-200);
+  --color-amber-900: var(--amber-900);
+  --color-amber-950: var(--amber-950);
   --font-sans: var(--font-ibm), ui-sans-serif, system-ui, sans-serif;
   --font-serif: var(--font-newsreader), ui-serif, Georgia, serif;
   --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
@@ -45,6 +141,11 @@ body {
 }
 
 ::selection {
-  background: rgba(244, 244, 245, 0.14);
+  background: rgba(125, 125, 130, 0.28);
   color: var(--foreground);
+}
+
+/* The wordmark ships as white-on-black; invert it on the paper theme. */
+.light img[src$="/logo.png"] {
+  filter: invert(1);
 }

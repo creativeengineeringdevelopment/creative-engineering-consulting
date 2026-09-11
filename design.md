@@ -61,6 +61,25 @@ Hero → Problem → Product (Edge fleet) → How it works (journey) → Proof �
   all except the single CTA panel treatment already in use**
   (`bg-gradient-to-br from-zinc-900/60 to-zinc-950`, zinc-only).
 
+## Theme control
+
+- **Dark is the default theme.** `:root` in `app/globals.css` is the dark theme;
+  `.light` on `<html>` inverts to the paper theme. There is no system-follow mode.
+- All color is tokenized: the zinc and accent ramps are CSS variables consumed via
+  Tailwind `@theme inline`, so every utility (`bg-zinc-950`, `text-zinc-400`,
+  `border-zinc-800`, `text-sky-300`, …) resolves per-theme. **Never hard-code a
+  hex or a raw Tailwind zinc/accent color in a component — use the utility
+  classes, which now resolve through the theme variables.** The one structural
+  exception is the page background, read from `var(--background)`.
+- Light theme is a true inversion: zinc ramp flipped 50↔950, accents stepped
+  darker to keep AA contrast on paper, `--background` one step darker than the
+  lightest surface so bordered cards still lift.
+- The toggle is `components/ThemeToggle.tsx` in the header (desktop + mobile);
+  `components/ThemeScript.tsx` bootstraps the stored choice before first paint
+  (no flash). Choice persists in `localStorage` key `ce-theme`.
+- The wordmark ships white-on-black, so it is inverted on the light theme via a
+  global `img[src$="/logo.png"]` filter — no asset swap.
+
 ## Shape & spacing
 
 - Corners: `rounded-sm` everywhere. No pills, no `rounded-xl` cards.
@@ -97,6 +116,19 @@ Hero → Problem → Product (Edge fleet) → How it works (journey) → Proof �
 5. Proof appears once per page, at full strength — not scattered as teasers.
 6. Every section ends pointing somewhere: a link, a CTA, or the next section's
    evident tension. No dead ends.
+
+## Product imagery
+
+- **No stock photography, no fake dashboards.** Product imagery is code-rendered
+  in `components/product-shots/` as `ConsoleFrame`-based surfaces — the console
+  as it actually reads, on synthetic data.
+- Every shot carries a `Synthetic data` tag in its window chrome; figures get a
+  mono caption naming the surface and the synthetic-data fact.
+- Shots are honest stand-ins: they show the shape of the product (console,
+  inbox triage, pipeline, deployments) without claiming a live screenshot.
+- Frames stay dark in both themes — they depict the dark console instrument,
+  not the marketing surface.
+- One shot per page section, mounted where it advances that section's point.
 
 ## Workflow rules for agents editing this site
 

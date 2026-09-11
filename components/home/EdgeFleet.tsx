@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { SectionHeader } from "@/components/home/SectionHeader";
+import { ConsoleDashboard } from "@/components/product-shots/ConsoleDashboard";
 import { ROUTES } from "@/lib/constants";
 
 const apps = [
@@ -45,6 +46,12 @@ export function EdgeFleet() {
           description="Unlockd Edge opens as a working synthetic investment manager — not an empty dashboard. Every micro-app demonstrates how information and work should move through the operating system."
           titleId="fleet-heading"
         />
+        <div className="mt-14">
+          <ConsoleDashboard />
+          <figcaption className="mt-3 font-mono text-[10px] uppercase tracking-widest text-zinc-600">
+            The console on an ordinary Tuesday — synthetic data
+          </figcaption>
+        </div>
         <div className="mt-14 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
           {apps.map((app, index) => (
             <article

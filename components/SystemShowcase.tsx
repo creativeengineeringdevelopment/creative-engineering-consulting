@@ -1,11 +1,12 @@
 "use client";
-import { useState } from "react";
+import { useRef, useState } from "react";
 import Link from "next/link";
 import { Arrow, Label } from "@/components/Shared";
 import { staffApps, appGroups } from "@/lib/staff-apps";
 
 export function SystemShowcase() {
   const [active, setActive] = useState("relation");
+  const detail = useRef<HTMLDivElement>(null);
   const app = staffApps.find((item) => item.id === active)!;
   return (
     <section className="section systems-showcase" id="systems">
@@ -39,6 +40,7 @@ export function SystemShowcase() {
             </p>
           </div>
           <div
+            id="cap-app-map"
             className="cap-groups"
             role="group"
             aria-label="Explore 15 staff apps"
@@ -57,7 +59,16 @@ export function SystemShowcase() {
                       key={item.id}
                       aria-pressed={active === item.id}
                       aria-controls="cap-app-detail"
-                      onClick={() => setActive(item.id)}
+                      onClick={() => {
+                        setActive(item.id);
+                        if (window.matchMedia("(max-width: 700px)").matches) {
+                          detail.current?.focus({ preventScroll: true });
+                          detail.current?.scrollIntoView({
+                            block: "start",
+                            behavior: "instant",
+                          });
+                        }
+                      }}
                     >
                       <span className="cap-node-dot" />
                       <span>
@@ -82,6 +93,8 @@ export function SystemShowcase() {
           </div>
         </div>
         <div
+          ref={detail}
+          tabIndex={-1}
           className="cap-detail"
           id="cap-app-detail"
           aria-live="polite"
@@ -106,6 +119,9 @@ export function SystemShowcase() {
             <p>{app.setup}</p>
             <strong>Works with</strong>
             <p>{app.connections}</p>
+            <a className="cap-back text-link" href="#cap-app-map">
+              Explore another app ↑
+            </a>
           </div>
         </div>
         <div className="cap-handoff">

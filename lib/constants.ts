@@ -1,7 +1,5 @@
 export const SITE = {
   name: "Creative Engineering Consulting",
-  /** Horizontal lockup (PNG in /public). */
-  logoSrc: "/logo.png",
   tagline:
     "We structure the workflows you already have into AI-powered systems that run automatically—follow-up, routing, and decisions without manual effort.",
   url: "https://creative-engineering-consulting.vercel.app",

@@ -29,7 +29,6 @@ export const metadata: Metadata = {
     title: SITE.name,
     description: SITE.tagline,
     type: "website",
-    images: [{ url: SITE.logoSrc, alt: SITE.name }],
   },
   twitter: {
     card: "summary_large_image",

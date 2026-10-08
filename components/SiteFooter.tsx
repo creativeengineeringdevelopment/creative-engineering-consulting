@@ -17,6 +17,7 @@ export function SiteFooter() {
         <div className="footer-links">
           <Link href="/work">Selected work</Link>
           <Link href="/how-it-works">The offering</Link>
+          <Link href="/capabilities">Capabilities</Link>
           <Link href="/about">About Jared</Link>
           <Link href="/audit">System assessment</Link>
         </div>

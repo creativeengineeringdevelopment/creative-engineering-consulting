@@ -3774,3 +3774,229 @@ strong {
     gap: 15px;
   }
 }
+
+/* Dedicated capability inventory */
+.inventory-overview {
+  padding-bottom: 2rem;
+}
+.inventory-total {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  padding: 2.5rem;
+  background: var(--forest, #18382d);
+  color: #fff;
+}
+.inventory-total strong {
+  display: block;
+  font-size: clamp(4rem, 9vw, 7rem);
+  line-height: 1.1;
+  font-weight: 400;
+  letter-spacing: -0.06em;
+}
+.inventory-total p {
+  color: #d6e0d8;
+  max-width: 42rem;
+}
+.inventory-stats {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  border: 1px solid #d6d8d0;
+}
+.inventory-stats > div {
+  padding: 1.5rem;
+  border-right: 1px solid #d6d8d0;
+}
+.inventory-stats > div:last-child {
+  border: 0;
+}
+.inventory-stats strong {
+  font-size: 2rem;
+  color: #4338dc;
+}
+.inventory-stats h2 {
+  font-family: inherit;
+  font-size: 1rem;
+  letter-spacing: 0;
+  line-height: 1.4;
+  margin: 1rem 0 0.5rem;
+}
+.inventory-stats p,
+.inventory-overview > .caption {
+  font-size: 0.85rem;
+}
+.inventory-overview > .caption {
+  margin-top: 1rem;
+}
+.inventory-jumps {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+.inventory-controls {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 1rem;
+  margin: 2rem 0 1rem;
+}
+.inventory-controls label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  font-size: 0.85rem;
+}
+.inventory-controls input,
+.inventory-controls select {
+  width: 100%;
+  min-width: 0;
+  background: #fffef9;
+  border: 1px solid #bbc5b9;
+  padding: 1rem;
+  color: #19392f;
+  border-radius: 0;
+  font: inherit;
+}
+.inventory-controls :focus-visible,
+.inventory-results button:focus-visible,
+.inventory-domain summary:focus-visible {
+  outline: 2px solid #4338dc;
+  outline-offset: 3px;
+}
+.inventory-results {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  margin: 1.5rem 0;
+}
+.inventory-results button {
+  background: none;
+  border: 0;
+  text-decoration: underline;
+  cursor: pointer;
+  padding: 0.5rem;
+  color: #4338dc;
+}
+.inventory-domains {
+  margin-top: 2rem;
+  border-top: 1px solid #bfc9bf;
+}
+.inventory-domain {
+  border-bottom: 1px solid #bfc9bf;
+}
+.inventory-domain summary {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  padding: 1.5rem 0;
+  cursor: pointer;
+  list-style: none;
+}
+.inventory-domain summary::-webkit-details-marker {
+  display: none;
+}
+.inventory-domain summary > span:first-child {
+  flex: 1;
+  font-size: 1.3rem;
+}
+.inventory-domain small {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #58695c;
+}
+.inventory-domain summary > strong {
+  font-size: 1.5rem;
+  text-align: right;
+  font-weight: 400;
+}
+.inventory-domain[open] summary > span:last-child {
+  transform: rotate(45deg);
+}
+.inventory-rows article {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+  padding: 1.3rem;
+  background: #fffef9;
+  border-top: 1px solid #e0e3da;
+}
+.inventory-rows h3 {
+  font: inherit;
+  font-weight: 600;
+}
+.inventory-rows p {
+  font-size: 0.75rem;
+  margin: 0.4rem 0 0;
+  color: #58695c;
+}
+.inventory-kind-counts {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.inventory-kind-counts span {
+  background: #eef0e9;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.75rem;
+}
+.inventory-empty {
+  padding: 3rem;
+  background: #eef0e9;
+}
+.atlas-full-link {
+  margin: -1rem 0 2rem;
+}
+@media (max-width: 900px) {
+  .inventory-stats {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .inventory-total {
+    gap: 1.5rem;
+  }
+  .inventory-controls {
+    grid-template-columns: 1fr 1fr;
+  }
+  .inventory-controls label:first-child {
+    grid-column: 1/-1;
+  }
+}
+@media (max-width: 600px) {
+  .inventory-total {
+    grid-template-columns: 1fr;
+    padding: 1.5rem;
+  }
+  .inventory-stats {
+    grid-template-columns: 1fr 1fr;
+  }
+  .inventory-stats > div {
+    padding: 1rem;
+  }
+  .inventory-controls {
+    grid-template-columns: 1fr;
+  }
+  .inventory-rows article {
+    grid-template-columns: 1fr;
+    gap: 0.7rem;
+  }
+  .inventory-domain summary {
+    gap: 1rem;
+  }
+  .inventory-domain summary > span:first-child {
+    font-size: 1.05rem;
+  }
+  .inventory-results {
+    font-size: 0.85rem;
+  }
+  .site-header nav {
+    gap: 0.7rem;
+    flex-wrap: wrap;
+  }
+  .inventory-jumps {
+    gap: 1rem;
+  }
+}

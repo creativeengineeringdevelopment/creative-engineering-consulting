@@ -7,7 +7,7 @@ import { Arrow, Label } from "@/components/Shared";
 import { CapabilityAtlas } from "@/components/CapabilityAtlas";
 import { staffApps, appGroups } from "@/lib/staff-apps";
 
-export function SystemShowcase() {
+export function SystemShowcase({ dedicated = false }: { dedicated?: boolean }) {
   const [active, setActive] = useState("relation");
   const [view, setView] = useState<"outcomes" | "apps">("outcomes");
   const explorer = useRef<HTMLDivElement>(null);
@@ -32,6 +32,13 @@ export function SystemShowcase() {
             explore the software behind it.
           </p>
         </div>
+        {!dedicated && (
+          <p className="atlas-full-link">
+            <Link className="text-link" href="/capabilities">
+              Explore the full Capability Atlas · 141 candidate groups <Arrow />
+            </Link>
+          </p>
+        )}
         <div
           className="atlas-view-switch"
           ref={explorer}

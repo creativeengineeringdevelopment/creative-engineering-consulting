@@ -18,6 +18,7 @@ export function SiteHeader() {
         <nav aria-label="Main navigation">
           <Link href="/work">Selected work</Link>
           <Link href="/how-it-works">The offering</Link>
+          <Link href="/capabilities">Capabilities</Link>
           <Link href="/about">The story</Link>
           <Link href="/contact" className="nav-cta">
             Let’s talk <span aria-hidden="true">↗</span>

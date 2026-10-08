@@ -1,0 +1,1351 @@
+[
+  {
+    "id": "analytics_data.analyze",
+    "domain": "analytics_data",
+    "verb": "analyze",
+    "operation_count": 101,
+    "kinds": {
+      "http": 97,
+      "cli": 4
+    }
+  },
+  {
+    "id": "analytics_data.approve",
+    "domain": "analytics_data",
+    "verb": "approve",
+    "operation_count": 3,
+    "kinds": {
+      "job": 1,
+      "http": 2
+    }
+  },
+  {
+    "id": "analytics_data.create",
+    "domain": "analytics_data",
+    "verb": "create",
+    "operation_count": 8,
+    "kinds": {
+      "http": 3,
+      "cli": 5
+    }
+  },
+  {
+    "id": "analytics_data.execute",
+    "domain": "analytics_data",
+    "verb": "execute",
+    "operation_count": 29,
+    "kinds": {
+      "http": 4,
+      "job": 23,
+      "cli": 2
+    }
+  },
+  {
+    "id": "analytics_data.export",
+    "domain": "analytics_data",
+    "verb": "export",
+    "operation_count": 2,
+    "kinds": {
+      "http": 2
+    }
+  },
+  {
+    "id": "analytics_data.operate",
+    "domain": "analytics_data",
+    "verb": "operate",
+    "operation_count": 10,
+    "kinds": {
+      "http": 9,
+      "cli": 1
+    }
+  },
+  {
+    "id": "analytics_data.publish",
+    "domain": "analytics_data",
+    "verb": "publish",
+    "operation_count": 2,
+    "kinds": {
+      "http": 2
+    }
+  },
+  {
+    "id": "analytics_data.read",
+    "domain": "analytics_data",
+    "verb": "read",
+    "operation_count": 17,
+    "kinds": {
+      "http": 17
+    }
+  },
+  {
+    "id": "analytics_data.send",
+    "domain": "analytics_data",
+    "verb": "send",
+    "operation_count": 5,
+    "kinds": {
+      "http": 1,
+      "job": 4
+    }
+  },
+  {
+    "id": "analytics_data.update",
+    "domain": "analytics_data",
+    "verb": "update",
+    "operation_count": 3,
+    "kinds": {
+      "http": 3
+    }
+  },
+  {
+    "id": "communications.approve",
+    "domain": "communications",
+    "verb": "approve",
+    "operation_count": 5,
+    "kinds": {
+      "http": 3,
+      "cli": 2
+    }
+  },
+  {
+    "id": "communications.create",
+    "domain": "communications",
+    "verb": "create",
+    "operation_count": 2,
+    "kinds": {
+      "cli": 1,
+      "http": 1
+    }
+  },
+  {
+    "id": "communications.delete",
+    "domain": "communications",
+    "verb": "delete",
+    "operation_count": 18,
+    "kinds": {
+      "http": 17,
+      "cli": 1
+    }
+  },
+  {
+    "id": "communications.deploy",
+    "domain": "communications",
+    "verb": "deploy",
+    "operation_count": 6,
+    "kinds": {
+      "cli": 6
+    }
+  },
+  {
+    "id": "communications.execute",
+    "domain": "communications",
+    "verb": "execute",
+    "operation_count": 7,
+    "kinds": {
+      "job": 7
+    }
+  },
+  {
+    "id": "communications.export",
+    "domain": "communications",
+    "verb": "export",
+    "operation_count": 1,
+    "kinds": {
+      "cli": 1
+    }
+  },
+  {
+    "id": "communications.operate",
+    "domain": "communications",
+    "verb": "operate",
+    "operation_count": 24,
+    "kinds": {
+      "http": 24
+    }
+  },
+  {
+    "id": "communications.publish",
+    "domain": "communications",
+    "verb": "publish",
+    "operation_count": 1,
+    "kinds": {
+      "http": 1
+    }
+  },
+  {
+    "id": "communications.read",
+    "domain": "communications",
+    "verb": "read",
+    "operation_count": 22,
+    "kinds": {
+      "http": 22
+    }
+  },
+  {
+    "id": "communications.send",
+    "domain": "communications",
+    "verb": "send",
+    "operation_count": 378,
+    "kinds": {
+      "http": 278,
+      "job": 62,
+      "mcp": 1,
+      "cli": 37
+    }
+  },
+  {
+    "id": "communications.update",
+    "domain": "communications",
+    "verb": "update",
+    "operation_count": 3,
+    "kinds": {
+      "http": 3
+    }
+  },
+  {
+    "id": "engineering_platform.analyze",
+    "domain": "engineering_platform",
+    "verb": "analyze",
+    "operation_count": 4,
+    "kinds": {
+      "http": 4
+    }
+  },
+  {
+    "id": "engineering_platform.approve",
+    "domain": "engineering_platform",
+    "verb": "approve",
+    "operation_count": 6,
+    "kinds": {
+      "http": 2,
+      "cli": 4
+    }
+  },
+  {
+    "id": "engineering_platform.create",
+    "domain": "engineering_platform",
+    "verb": "create",
+    "operation_count": 9,
+    "kinds": {
+      "http": 6,
+      "cli": 3
+    }
+  },
+  {
+    "id": "engineering_platform.delete",
+    "domain": "engineering_platform",
+    "verb": "delete",
+    "operation_count": 16,
+    "kinds": {
+      "http": 16
+    }
+  },
+  {
+    "id": "engineering_platform.deploy",
+    "domain": "engineering_platform",
+    "verb": "deploy",
+    "operation_count": 16,
+    "kinds": {
+      "cli": 12,
+      "http": 4
+    }
+  },
+  {
+    "id": "engineering_platform.execute",
+    "domain": "engineering_platform",
+    "verb": "execute",
+    "operation_count": 23,
+    "kinds": {
+      "job": 15,
+      "http": 8
+    }
+  },
+  {
+    "id": "engineering_platform.export",
+    "domain": "engineering_platform",
+    "verb": "export",
+    "operation_count": 2,
+    "kinds": {
+      "http": 1,
+      "cli": 1
+    }
+  },
+  {
+    "id": "engineering_platform.operate",
+    "domain": "engineering_platform",
+    "verb": "operate",
+    "operation_count": 50,
+    "kinds": {
+      "http": 34,
+      "cli": 16
+    }
+  },
+  {
+    "id": "engineering_platform.publish",
+    "domain": "engineering_platform",
+    "verb": "publish",
+    "operation_count": 2,
+    "kinds": {
+      "http": 2
+    }
+  },
+  {
+    "id": "engineering_platform.read",
+    "domain": "engineering_platform",
+    "verb": "read",
+    "operation_count": 132,
+    "kinds": {
+      "http": 132
+    }
+  },
+  {
+    "id": "engineering_platform.update",
+    "domain": "engineering_platform",
+    "verb": "update",
+    "operation_count": 24,
+    "kinds": {
+      "http": 23,
+      "cli": 1
+    }
+  },
+  {
+    "id": "finance.analyze",
+    "domain": "finance",
+    "verb": "analyze",
+    "operation_count": 7,
+    "kinds": {
+      "http": 7
+    }
+  },
+  {
+    "id": "finance.approve",
+    "domain": "finance",
+    "verb": "approve",
+    "operation_count": 6,
+    "kinds": {
+      "http": 6
+    }
+  },
+  {
+    "id": "finance.create",
+    "domain": "finance",
+    "verb": "create",
+    "operation_count": 12,
+    "kinds": {
+      "http": 5,
+      "cli": 7
+    }
+  },
+  {
+    "id": "finance.delete",
+    "domain": "finance",
+    "verb": "delete",
+    "operation_count": 1,
+    "kinds": {
+      "http": 1
+    }
+  },
+  {
+    "id": "finance.deploy",
+    "domain": "finance",
+    "verb": "deploy",
+    "operation_count": 3,
+    "kinds": {
+      "cli": 2,
+      "http": 1
+    }
+  },
+  {
+    "id": "finance.execute",
+    "domain": "finance",
+    "verb": "execute",
+    "operation_count": 24,
+    "kinds": {
+      "job": 6,
+      "http": 18
+    }
+  },
+  {
+    "id": "finance.operate",
+    "domain": "finance",
+    "verb": "operate",
+    "operation_count": 46,
+    "kinds": {
+      "http": 40,
+      "cli": 6
+    }
+  },
+  {
+    "id": "finance.read",
+    "domain": "finance",
+    "verb": "read",
+    "operation_count": 31,
+    "kinds": {
+      "http": 30,
+      "cli": 1
+    }
+  },
+  {
+    "id": "finance.update",
+    "domain": "finance",
+    "verb": "update",
+    "operation_count": 7,
+    "kinds": {
+      "http": 7
+    }
+  },
+  {
+    "id": "general_operations.analyze",
+    "domain": "general_operations",
+    "verb": "analyze",
+    "operation_count": 7,
+    "kinds": {
+      "http": 2,
+      "cli": 5
+    }
+  },
+  {
+    "id": "general_operations.approve",
+    "domain": "general_operations",
+    "verb": "approve",
+    "operation_count": 18,
+    "kinds": {
+      "http": 17,
+      "cli": 1
+    }
+  },
+  {
+    "id": "general_operations.create",
+    "domain": "general_operations",
+    "verb": "create",
+    "operation_count": 90,
+    "kinds": {
+      "cli": 52,
+      "http": 38
+    }
+  },
+  {
+    "id": "general_operations.delete",
+    "domain": "general_operations",
+    "verb": "delete",
+    "operation_count": 17,
+    "kinds": {
+      "http": 17
+    }
+  },
+  {
+    "id": "general_operations.deploy",
+    "domain": "general_operations",
+    "verb": "deploy",
+    "operation_count": 53,
+    "kinds": {
+      "cli": 48,
+      "http": 5
+    }
+  },
+  {
+    "id": "general_operations.execute",
+    "domain": "general_operations",
+    "verb": "execute",
+    "operation_count": 69,
+    "kinds": {
+      "cli": 54,
+      "http": 15
+    }
+  },
+  {
+    "id": "general_operations.export",
+    "domain": "general_operations",
+    "verb": "export",
+    "operation_count": 8,
+    "kinds": {
+      "http": 5,
+      "cli": 3
+    }
+  },
+  {
+    "id": "general_operations.operate",
+    "domain": "general_operations",
+    "verb": "operate",
+    "operation_count": 766,
+    "kinds": {
+      "cli": 390,
+      "http": 351,
+      "deployment": 21,
+      "mcp": 4
+    }
+  },
+  {
+    "id": "general_operations.publish",
+    "domain": "general_operations",
+    "verb": "publish",
+    "operation_count": 5,
+    "kinds": {
+      "http": 4,
+      "cli": 1
+    }
+  },
+  {
+    "id": "general_operations.read",
+    "domain": "general_operations",
+    "verb": "read",
+    "operation_count": 226,
+    "kinds": {
+      "http": 221,
+      "cli": 3,
+      "mcp": 2
+    }
+  },
+  {
+    "id": "general_operations.send",
+    "domain": "general_operations",
+    "verb": "send",
+    "operation_count": 10,
+    "kinds": {
+      "http": 8,
+      "cli": 2
+    }
+  },
+  {
+    "id": "general_operations.update",
+    "domain": "general_operations",
+    "verb": "update",
+    "operation_count": 60,
+    "kinds": {
+      "http": 54,
+      "cli": 6
+    }
+  },
+  {
+    "id": "governance_risk.approve",
+    "domain": "governance_risk",
+    "verb": "approve",
+    "operation_count": 3,
+    "kinds": {
+      "http": 3
+    }
+  },
+  {
+    "id": "governance_risk.delete",
+    "domain": "governance_risk",
+    "verb": "delete",
+    "operation_count": 1,
+    "kinds": {
+      "http": 1
+    }
+  },
+  {
+    "id": "governance_risk.deploy",
+    "domain": "governance_risk",
+    "verb": "deploy",
+    "operation_count": 1,
+    "kinds": {
+      "cli": 1
+    }
+  },
+  {
+    "id": "governance_risk.execute",
+    "domain": "governance_risk",
+    "verb": "execute",
+    "operation_count": 6,
+    "kinds": {
+      "cli": 3,
+      "job": 3
+    }
+  },
+  {
+    "id": "governance_risk.operate",
+    "domain": "governance_risk",
+    "verb": "operate",
+    "operation_count": 34,
+    "kinds": {
+      "http": 25,
+      "cli": 9
+    }
+  },
+  {
+    "id": "governance_risk.read",
+    "domain": "governance_risk",
+    "verb": "read",
+    "operation_count": 17,
+    "kinds": {
+      "http": 17
+    }
+  },
+  {
+    "id": "governance_risk.update",
+    "domain": "governance_risk",
+    "verb": "update",
+    "operation_count": 1,
+    "kinds": {
+      "http": 1
+    }
+  },
+  {
+    "id": "identity_access.analyze",
+    "domain": "identity_access",
+    "verb": "analyze",
+    "operation_count": 3,
+    "kinds": {
+      "http": 3
+    }
+  },
+  {
+    "id": "identity_access.create",
+    "domain": "identity_access",
+    "verb": "create",
+    "operation_count": 3,
+    "kinds": {
+      "cli": 3
+    }
+  },
+  {
+    "id": "identity_access.deploy",
+    "domain": "identity_access",
+    "verb": "deploy",
+    "operation_count": 4,
+    "kinds": {
+      "cli": 4
+    }
+  },
+  {
+    "id": "identity_access.execute",
+    "domain": "identity_access",
+    "verb": "execute",
+    "operation_count": 1,
+    "kinds": {
+      "job": 1
+    }
+  },
+  {
+    "id": "identity_access.operate",
+    "domain": "identity_access",
+    "verb": "operate",
+    "operation_count": 42,
+    "kinds": {
+      "http": 40,
+      "cli": 2
+    }
+  },
+  {
+    "id": "identity_access.read",
+    "domain": "identity_access",
+    "verb": "read",
+    "operation_count": 37,
+    "kinds": {
+      "http": 37
+    }
+  },
+  {
+    "id": "identity_access.send",
+    "domain": "identity_access",
+    "verb": "send",
+    "operation_count": 10,
+    "kinds": {
+      "http": 10
+    }
+  },
+  {
+    "id": "identity_access.update",
+    "domain": "identity_access",
+    "verb": "update",
+    "operation_count": 6,
+    "kinds": {
+      "http": 6
+    }
+  },
+  {
+    "id": "investor_capital.analyze",
+    "domain": "investor_capital",
+    "verb": "analyze",
+    "operation_count": 5,
+    "kinds": {
+      "http": 5
+    }
+  },
+  {
+    "id": "investor_capital.approve",
+    "domain": "investor_capital",
+    "verb": "approve",
+    "operation_count": 5,
+    "kinds": {
+      "job": 2,
+      "cli": 1,
+      "http": 2
+    }
+  },
+  {
+    "id": "investor_capital.create",
+    "domain": "investor_capital",
+    "verb": "create",
+    "operation_count": 12,
+    "kinds": {
+      "cli": 7,
+      "http": 5
+    }
+  },
+  {
+    "id": "investor_capital.delete",
+    "domain": "investor_capital",
+    "verb": "delete",
+    "operation_count": 2,
+    "kinds": {
+      "cli": 1,
+      "http": 1
+    }
+  },
+  {
+    "id": "investor_capital.execute",
+    "domain": "investor_capital",
+    "verb": "execute",
+    "operation_count": 14,
+    "kinds": {
+      "job": 14
+    }
+  },
+  {
+    "id": "investor_capital.export",
+    "domain": "investor_capital",
+    "verb": "export",
+    "operation_count": 5,
+    "kinds": {
+      "http": 5
+    }
+  },
+  {
+    "id": "investor_capital.operate",
+    "domain": "investor_capital",
+    "verb": "operate",
+    "operation_count": 123,
+    "kinds": {
+      "http": 116,
+      "cli": 7
+    }
+  },
+  {
+    "id": "investor_capital.publish",
+    "domain": "investor_capital",
+    "verb": "publish",
+    "operation_count": 2,
+    "kinds": {
+      "http": 2
+    }
+  },
+  {
+    "id": "investor_capital.read",
+    "domain": "investor_capital",
+    "verb": "read",
+    "operation_count": 22,
+    "kinds": {
+      "http": 22
+    }
+  },
+  {
+    "id": "investor_capital.send",
+    "domain": "investor_capital",
+    "verb": "send",
+    "operation_count": 2,
+    "kinds": {
+      "job": 1,
+      "http": 1
+    }
+  },
+  {
+    "id": "investor_capital.update",
+    "domain": "investor_capital",
+    "verb": "update",
+    "operation_count": 15,
+    "kinds": {
+      "http": 15
+    }
+  },
+  {
+    "id": "knowledge_process.approve",
+    "domain": "knowledge_process",
+    "verb": "approve",
+    "operation_count": 5,
+    "kinds": {
+      "http": 5
+    }
+  },
+  {
+    "id": "knowledge_process.create",
+    "domain": "knowledge_process",
+    "verb": "create",
+    "operation_count": 6,
+    "kinds": {
+      "http": 2,
+      "cli": 4
+    }
+  },
+  {
+    "id": "knowledge_process.delete",
+    "domain": "knowledge_process",
+    "verb": "delete",
+    "operation_count": 3,
+    "kinds": {
+      "http": 3
+    }
+  },
+  {
+    "id": "knowledge_process.deploy",
+    "domain": "knowledge_process",
+    "verb": "deploy",
+    "operation_count": 1,
+    "kinds": {
+      "cli": 1
+    }
+  },
+  {
+    "id": "knowledge_process.execute",
+    "domain": "knowledge_process",
+    "verb": "execute",
+    "operation_count": 1,
+    "kinds": {
+      "http": 1
+    }
+  },
+  {
+    "id": "knowledge_process.export",
+    "domain": "knowledge_process",
+    "verb": "export",
+    "operation_count": 1,
+    "kinds": {
+      "http": 1
+    }
+  },
+  {
+    "id": "knowledge_process.operate",
+    "domain": "knowledge_process",
+    "verb": "operate",
+    "operation_count": 85,
+    "kinds": {
+      "http": 82,
+      "cli": 1,
+      "deployment": 2
+    }
+  },
+  {
+    "id": "knowledge_process.publish",
+    "domain": "knowledge_process",
+    "verb": "publish",
+    "operation_count": 4,
+    "kinds": {
+      "http": 4
+    }
+  },
+  {
+    "id": "knowledge_process.read",
+    "domain": "knowledge_process",
+    "verb": "read",
+    "operation_count": 58,
+    "kinds": {
+      "http": 58
+    }
+  },
+  {
+    "id": "knowledge_process.update",
+    "domain": "knowledge_process",
+    "verb": "update",
+    "operation_count": 14,
+    "kinds": {
+      "http": 14
+    }
+  },
+  {
+    "id": "people_hiring.analyze",
+    "domain": "people_hiring",
+    "verb": "analyze",
+    "operation_count": 6,
+    "kinds": {
+      "cli": 3,
+      "http": 3
+    }
+  },
+  {
+    "id": "people_hiring.approve",
+    "domain": "people_hiring",
+    "verb": "approve",
+    "operation_count": 3,
+    "kinds": {
+      "http": 3
+    }
+  },
+  {
+    "id": "people_hiring.create",
+    "domain": "people_hiring",
+    "verb": "create",
+    "operation_count": 5,
+    "kinds": {
+      "http": 4,
+      "cli": 1
+    }
+  },
+  {
+    "id": "people_hiring.delete",
+    "domain": "people_hiring",
+    "verb": "delete",
+    "operation_count": 1,
+    "kinds": {
+      "http": 1
+    }
+  },
+  {
+    "id": "people_hiring.execute",
+    "domain": "people_hiring",
+    "verb": "execute",
+    "operation_count": 46,
+    "kinds": {
+      "job": 32,
+      "http": 14
+    }
+  },
+  {
+    "id": "people_hiring.export",
+    "domain": "people_hiring",
+    "verb": "export",
+    "operation_count": 1,
+    "kinds": {
+      "http": 1
+    }
+  },
+  {
+    "id": "people_hiring.operate",
+    "domain": "people_hiring",
+    "verb": "operate",
+    "operation_count": 32,
+    "kinds": {
+      "http": 32
+    }
+  },
+  {
+    "id": "people_hiring.publish",
+    "domain": "people_hiring",
+    "verb": "publish",
+    "operation_count": 2,
+    "kinds": {
+      "http": 2
+    }
+  },
+  {
+    "id": "people_hiring.read",
+    "domain": "people_hiring",
+    "verb": "read",
+    "operation_count": 28,
+    "kinds": {
+      "http": 28
+    }
+  },
+  {
+    "id": "people_hiring.update",
+    "domain": "people_hiring",
+    "verb": "update",
+    "operation_count": 6,
+    "kinds": {
+      "http": 6
+    }
+  },
+  {
+    "id": "projects_work.create",
+    "domain": "projects_work",
+    "verb": "create",
+    "operation_count": 1,
+    "kinds": {
+      "cli": 1
+    }
+  },
+  {
+    "id": "projects_work.delete",
+    "domain": "projects_work",
+    "verb": "delete",
+    "operation_count": 4,
+    "kinds": {
+      "http": 4
+    }
+  },
+  {
+    "id": "projects_work.operate",
+    "domain": "projects_work",
+    "verb": "operate",
+    "operation_count": 7,
+    "kinds": {
+      "http": 7
+    }
+  },
+  {
+    "id": "projects_work.read",
+    "domain": "projects_work",
+    "verb": "read",
+    "operation_count": 11,
+    "kinds": {
+      "http": 11
+    }
+  },
+  {
+    "id": "projects_work.update",
+    "domain": "projects_work",
+    "verb": "update",
+    "operation_count": 7,
+    "kinds": {
+      "http": 7
+    }
+  },
+  {
+    "id": "property_assets.analyze",
+    "domain": "property_assets",
+    "verb": "analyze",
+    "operation_count": 12,
+    "kinds": {
+      "http": 12
+    }
+  },
+  {
+    "id": "property_assets.approve",
+    "domain": "property_assets",
+    "verb": "approve",
+    "operation_count": 3,
+    "kinds": {
+      "http": 3
+    }
+  },
+  {
+    "id": "property_assets.create",
+    "domain": "property_assets",
+    "verb": "create",
+    "operation_count": 6,
+    "kinds": {
+      "cli": 2,
+      "http": 4
+    }
+  },
+  {
+    "id": "property_assets.delete",
+    "domain": "property_assets",
+    "verb": "delete",
+    "operation_count": 1,
+    "kinds": {
+      "http": 1
+    }
+  },
+  {
+    "id": "property_assets.execute",
+    "domain": "property_assets",
+    "verb": "execute",
+    "operation_count": 3,
+    "kinds": {
+      "job": 3
+    }
+  },
+  {
+    "id": "property_assets.export",
+    "domain": "property_assets",
+    "verb": "export",
+    "operation_count": 1,
+    "kinds": {
+      "http": 1
+    }
+  },
+  {
+    "id": "property_assets.operate",
+    "domain": "property_assets",
+    "verb": "operate",
+    "operation_count": 66,
+    "kinds": {
+      "http": 66
+    }
+  },
+  {
+    "id": "property_assets.read",
+    "domain": "property_assets",
+    "verb": "read",
+    "operation_count": 32,
+    "kinds": {
+      "http": 32
+    }
+  },
+  {
+    "id": "property_assets.update",
+    "domain": "property_assets",
+    "verb": "update",
+    "operation_count": 10,
+    "kinds": {
+      "http": 10
+    }
+  },
+  {
+    "id": "relationship_crm.analyze",
+    "domain": "relationship_crm",
+    "verb": "analyze",
+    "operation_count": 24,
+    "kinds": {
+      "http": 23,
+      "cli": 1
+    }
+  },
+  {
+    "id": "relationship_crm.approve",
+    "domain": "relationship_crm",
+    "verb": "approve",
+    "operation_count": 7,
+    "kinds": {
+      "http": 6,
+      "job": 1
+    }
+  },
+  {
+    "id": "relationship_crm.create",
+    "domain": "relationship_crm",
+    "verb": "create",
+    "operation_count": 37,
+    "kinds": {
+      "http": 10,
+      "mcp": 7,
+      "cli": 20
+    }
+  },
+  {
+    "id": "relationship_crm.delete",
+    "domain": "relationship_crm",
+    "verb": "delete",
+    "operation_count": 9,
+    "kinds": {
+      "http": 9
+    }
+  },
+  {
+    "id": "relationship_crm.deploy",
+    "domain": "relationship_crm",
+    "verb": "deploy",
+    "operation_count": 4,
+    "kinds": {
+      "cli": 3,
+      "http": 1
+    }
+  },
+  {
+    "id": "relationship_crm.execute",
+    "domain": "relationship_crm",
+    "verb": "execute",
+    "operation_count": 60,
+    "kinds": {
+      "job": 50,
+      "http": 6,
+      "mcp": 1,
+      "cli": 3
+    }
+  },
+  {
+    "id": "relationship_crm.export",
+    "domain": "relationship_crm",
+    "verb": "export",
+    "operation_count": 8,
+    "kinds": {
+      "http": 8
+    }
+  },
+  {
+    "id": "relationship_crm.operate",
+    "domain": "relationship_crm",
+    "verb": "operate",
+    "operation_count": 127,
+    "kinds": {
+      "http": 83,
+      "mcp": 10,
+      "cli": 33,
+      "deployment": 1
+    }
+  },
+  {
+    "id": "relationship_crm.publish",
+    "domain": "relationship_crm",
+    "verb": "publish",
+    "operation_count": 2,
+    "kinds": {
+      "http": 2
+    }
+  },
+  {
+    "id": "relationship_crm.read",
+    "domain": "relationship_crm",
+    "verb": "read",
+    "operation_count": 155,
+    "kinds": {
+      "http": 145,
+      "mcp": 7,
+      "cli": 3
+    }
+  },
+  {
+    "id": "relationship_crm.send",
+    "domain": "relationship_crm",
+    "verb": "send",
+    "operation_count": 9,
+    "kinds": {
+      "http": 9
+    }
+  },
+  {
+    "id": "relationship_crm.update",
+    "domain": "relationship_crm",
+    "verb": "update",
+    "operation_count": 36,
+    "kinds": {
+      "http": 34,
+      "cli": 2
+    }
+  },
+  {
+    "id": "support_care.approve",
+    "domain": "support_care",
+    "verb": "approve",
+    "operation_count": 1,
+    "kinds": {
+      "cli": 1
+    }
+  },
+  {
+    "id": "support_care.create",
+    "domain": "support_care",
+    "verb": "create",
+    "operation_count": 2,
+    "kinds": {
+      "cli": 2
+    }
+  },
+  {
+    "id": "support_care.operate",
+    "domain": "support_care",
+    "verb": "operate",
+    "operation_count": 12,
+    "kinds": {
+      "http": 7,
+      "cli": 5
+    }
+  },
+  {
+    "id": "support_care.read",
+    "domain": "support_care",
+    "verb": "read",
+    "operation_count": 5,
+    "kinds": {
+      "http": 5
+    }
+  },
+  {
+    "id": "support_care.update",
+    "domain": "support_care",
+    "verb": "update",
+    "operation_count": 2,
+    "kinds": {
+      "http": 2
+    }
+  },
+  {
+    "id": "workflow_automation.approve",
+    "domain": "workflow_automation",
+    "verb": "approve",
+    "operation_count": 4,
+    "kinds": {
+      "job": 2,
+      "http": 2
+    }
+  },
+  {
+    "id": "workflow_automation.create",
+    "domain": "workflow_automation",
+    "verb": "create",
+    "operation_count": 10,
+    "kinds": {
+      "http": 8,
+      "cli": 2
+    }
+  },
+  {
+    "id": "workflow_automation.delete",
+    "domain": "workflow_automation",
+    "verb": "delete",
+    "operation_count": 5,
+    "kinds": {
+      "job": 3,
+      "http": 2
+    }
+  },
+  {
+    "id": "workflow_automation.deploy",
+    "domain": "workflow_automation",
+    "verb": "deploy",
+    "operation_count": 2,
+    "kinds": {
+      "job": 1,
+      "cli": 1
+    }
+  },
+  {
+    "id": "workflow_automation.execute",
+    "domain": "workflow_automation",
+    "verb": "execute",
+    "operation_count": 226,
+    "kinds": {
+      "job": 188,
+      "cli": 31,
+      "http": 7
+    }
+  },
+  {
+    "id": "workflow_automation.export",
+    "domain": "workflow_automation",
+    "verb": "export",
+    "operation_count": 1,
+    "kinds": {
+      "http": 1
+    }
+  },
+  {
+    "id": "workflow_automation.operate",
+    "domain": "workflow_automation",
+    "verb": "operate",
+    "operation_count": 73,
+    "kinds": {
+      "http": 60,
+      "cli": 13
+    }
+  },
+  {
+    "id": "workflow_automation.publish",
+    "domain": "workflow_automation",
+    "verb": "publish",
+    "operation_count": 6,
+    "kinds": {
+      "job": 4,
+      "http": 2
+    }
+  },
+  {
+    "id": "workflow_automation.read",
+    "domain": "workflow_automation",
+    "verb": "read",
+    "operation_count": 36,
+    "kinds": {
+      "http": 36
+    }
+  },
+  {
+    "id": "workflow_automation.send",
+    "domain": "workflow_automation",
+    "verb": "send",
+    "operation_count": 16,
+    "kinds": {
+      "job": 8,
+      "http": 5,
+      "cli": 3
+    }
+  },
+  {
+    "id": "workflow_automation.update",
+    "domain": "workflow_automation",
+    "verb": "update",
+    "operation_count": 5,
+    "kinds": {
+      "http": 5
+    }
+  }
+]

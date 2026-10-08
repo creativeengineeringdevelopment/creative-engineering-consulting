@@ -1,1351 +1,951 @@
-[
-  {
-    "id": "analytics_data.analyze",
-    "domain": "analytics_data",
-    "verb": "analyze",
-    "operation_count": 101,
-    "kinds": {
-      "http": 97,
-      "cli": 4
-    }
-  },
-  {
-    "id": "analytics_data.approve",
-    "domain": "analytics_data",
-    "verb": "approve",
-    "operation_count": 3,
-    "kinds": {
-      "job": 1,
-      "http": 2
-    }
-  },
-  {
-    "id": "analytics_data.create",
-    "domain": "analytics_data",
-    "verb": "create",
-    "operation_count": 8,
-    "kinds": {
-      "http": 3,
-      "cli": 5
-    }
-  },
-  {
-    "id": "analytics_data.execute",
-    "domain": "analytics_data",
-    "verb": "execute",
-    "operation_count": 29,
-    "kinds": {
-      "http": 4,
-      "job": 23,
-      "cli": 2
-    }
-  },
-  {
-    "id": "analytics_data.export",
-    "domain": "analytics_data",
-    "verb": "export",
-    "operation_count": 2,
-    "kinds": {
-      "http": 2
-    }
-  },
-  {
-    "id": "analytics_data.operate",
-    "domain": "analytics_data",
-    "verb": "operate",
-    "operation_count": 10,
-    "kinds": {
-      "http": 9,
-      "cli": 1
-    }
-  },
-  {
-    "id": "analytics_data.publish",
-    "domain": "analytics_data",
-    "verb": "publish",
-    "operation_count": 2,
-    "kinds": {
-      "http": 2
-    }
-  },
-  {
-    "id": "analytics_data.read",
-    "domain": "analytics_data",
-    "verb": "read",
-    "operation_count": 17,
-    "kinds": {
-      "http": 17
-    }
-  },
-  {
-    "id": "analytics_data.send",
-    "domain": "analytics_data",
-    "verb": "send",
-    "operation_count": 5,
-    "kinds": {
-      "http": 1,
-      "job": 4
-    }
-  },
-  {
-    "id": "analytics_data.update",
-    "domain": "analytics_data",
-    "verb": "update",
-    "operation_count": 3,
-    "kinds": {
-      "http": 3
-    }
-  },
-  {
-    "id": "communications.approve",
-    "domain": "communications",
-    "verb": "approve",
-    "operation_count": 5,
-    "kinds": {
-      "http": 3,
-      "cli": 2
-    }
-  },
-  {
-    "id": "communications.create",
-    "domain": "communications",
-    "verb": "create",
-    "operation_count": 2,
-    "kinds": {
-      "cli": 1,
-      "http": 1
-    }
-  },
-  {
-    "id": "communications.delete",
-    "domain": "communications",
-    "verb": "delete",
-    "operation_count": 18,
-    "kinds": {
-      "http": 17,
-      "cli": 1
-    }
-  },
-  {
-    "id": "communications.deploy",
-    "domain": "communications",
-    "verb": "deploy",
-    "operation_count": 6,
-    "kinds": {
-      "cli": 6
-    }
-  },
-  {
-    "id": "communications.execute",
-    "domain": "communications",
-    "verb": "execute",
-    "operation_count": 7,
-    "kinds": {
-      "job": 7
-    }
-  },
-  {
-    "id": "communications.export",
-    "domain": "communications",
-    "verb": "export",
-    "operation_count": 1,
-    "kinds": {
-      "cli": 1
-    }
-  },
-  {
-    "id": "communications.operate",
-    "domain": "communications",
-    "verb": "operate",
-    "operation_count": 24,
-    "kinds": {
-      "http": 24
-    }
-  },
-  {
-    "id": "communications.publish",
-    "domain": "communications",
-    "verb": "publish",
-    "operation_count": 1,
-    "kinds": {
-      "http": 1
-    }
-  },
-  {
-    "id": "communications.read",
-    "domain": "communications",
-    "verb": "read",
-    "operation_count": 22,
-    "kinds": {
-      "http": 22
-    }
-  },
-  {
-    "id": "communications.send",
-    "domain": "communications",
-    "verb": "send",
-    "operation_count": 378,
-    "kinds": {
-      "http": 278,
-      "job": 62,
-      "mcp": 1,
-      "cli": 37
-    }
-  },
-  {
-    "id": "communications.update",
-    "domain": "communications",
-    "verb": "update",
-    "operation_count": 3,
-    "kinds": {
-      "http": 3
-    }
-  },
-  {
-    "id": "engineering_platform.analyze",
-    "domain": "engineering_platform",
-    "verb": "analyze",
-    "operation_count": 4,
-    "kinds": {
-      "http": 4
-    }
-  },
-  {
-    "id": "engineering_platform.approve",
-    "domain": "engineering_platform",
-    "verb": "approve",
-    "operation_count": 6,
-    "kinds": {
-      "http": 2,
-      "cli": 4
-    }
-  },
-  {
-    "id": "engineering_platform.create",
-    "domain": "engineering_platform",
-    "verb": "create",
-    "operation_count": 9,
-    "kinds": {
-      "http": 6,
-      "cli": 3
-    }
-  },
-  {
-    "id": "engineering_platform.delete",
-    "domain": "engineering_platform",
-    "verb": "delete",
-    "operation_count": 16,
-    "kinds": {
-      "http": 16
-    }
-  },
-  {
-    "id": "engineering_platform.deploy",
-    "domain": "engineering_platform",
-    "verb": "deploy",
-    "operation_count": 16,
-    "kinds": {
-      "cli": 12,
-      "http": 4
-    }
-  },
-  {
-    "id": "engineering_platform.execute",
-    "domain": "engineering_platform",
-    "verb": "execute",
-    "operation_count": 23,
-    "kinds": {
-      "job": 15,
-      "http": 8
-    }
-  },
-  {
-    "id": "engineering_platform.export",
-    "domain": "engineering_platform",
-    "verb": "export",
-    "operation_count": 2,
-    "kinds": {
-      "http": 1,
-      "cli": 1
-    }
-  },
-  {
-    "id": "engineering_platform.operate",
-    "domain": "engineering_platform",
-    "verb": "operate",
-    "operation_count": 50,
-    "kinds": {
-      "http": 34,
-      "cli": 16
-    }
-  },
-  {
-    "id": "engineering_platform.publish",
-    "domain": "engineering_platform",
-    "verb": "publish",
-    "operation_count": 2,
-    "kinds": {
-      "http": 2
-    }
-  },
-  {
-    "id": "engineering_platform.read",
-    "domain": "engineering_platform",
-    "verb": "read",
-    "operation_count": 132,
-    "kinds": {
-      "http": 132
-    }
-  },
-  {
-    "id": "engineering_platform.update",
-    "domain": "engineering_platform",
-    "verb": "update",
-    "operation_count": 24,
-    "kinds": {
-      "http": 23,
-      "cli": 1
-    }
-  },
-  {
-    "id": "finance.analyze",
-    "domain": "finance",
-    "verb": "analyze",
-    "operation_count": 7,
-    "kinds": {
-      "http": 7
-    }
-  },
-  {
-    "id": "finance.approve",
-    "domain": "finance",
-    "verb": "approve",
-    "operation_count": 6,
-    "kinds": {
-      "http": 6
-    }
-  },
-  {
-    "id": "finance.create",
-    "domain": "finance",
-    "verb": "create",
-    "operation_count": 12,
-    "kinds": {
-      "http": 5,
-      "cli": 7
-    }
-  },
-  {
-    "id": "finance.delete",
-    "domain": "finance",
-    "verb": "delete",
-    "operation_count": 1,
-    "kinds": {
-      "http": 1
-    }
-  },
-  {
-    "id": "finance.deploy",
-    "domain": "finance",
-    "verb": "deploy",
-    "operation_count": 3,
-    "kinds": {
-      "cli": 2,
-      "http": 1
-    }
-  },
-  {
-    "id": "finance.execute",
-    "domain": "finance",
-    "verb": "execute",
-    "operation_count": 24,
-    "kinds": {
-      "job": 6,
-      "http": 18
-    }
-  },
-  {
-    "id": "finance.operate",
-    "domain": "finance",
-    "verb": "operate",
-    "operation_count": 46,
-    "kinds": {
-      "http": 40,
-      "cli": 6
-    }
-  },
-  {
-    "id": "finance.read",
-    "domain": "finance",
-    "verb": "read",
-    "operation_count": 31,
-    "kinds": {
-      "http": 30,
-      "cli": 1
-    }
-  },
-  {
-    "id": "finance.update",
-    "domain": "finance",
-    "verb": "update",
-    "operation_count": 7,
-    "kinds": {
-      "http": 7
-    }
-  },
-  {
-    "id": "general_operations.analyze",
-    "domain": "general_operations",
-    "verb": "analyze",
-    "operation_count": 7,
-    "kinds": {
-      "http": 2,
-      "cli": 5
-    }
-  },
-  {
-    "id": "general_operations.approve",
-    "domain": "general_operations",
-    "verb": "approve",
-    "operation_count": 18,
-    "kinds": {
-      "http": 17,
-      "cli": 1
-    }
-  },
-  {
-    "id": "general_operations.create",
-    "domain": "general_operations",
-    "verb": "create",
-    "operation_count": 90,
-    "kinds": {
-      "cli": 52,
-      "http": 38
-    }
-  },
-  {
-    "id": "general_operations.delete",
-    "domain": "general_operations",
-    "verb": "delete",
-    "operation_count": 17,
-    "kinds": {
-      "http": 17
-    }
-  },
-  {
-    "id": "general_operations.deploy",
-    "domain": "general_operations",
-    "verb": "deploy",
-    "operation_count": 53,
-    "kinds": {
-      "cli": 48,
-      "http": 5
-    }
-  },
-  {
-    "id": "general_operations.execute",
-    "domain": "general_operations",
-    "verb": "execute",
-    "operation_count": 69,
-    "kinds": {
-      "cli": 54,
-      "http": 15
-    }
-  },
-  {
-    "id": "general_operations.export",
-    "domain": "general_operations",
-    "verb": "export",
-    "operation_count": 8,
-    "kinds": {
-      "http": 5,
-      "cli": 3
-    }
-  },
-  {
-    "id": "general_operations.operate",
-    "domain": "general_operations",
-    "verb": "operate",
-    "operation_count": 766,
-    "kinds": {
-      "cli": 390,
-      "http": 351,
-      "deployment": 21,
-      "mcp": 4
-    }
-  },
-  {
-    "id": "general_operations.publish",
-    "domain": "general_operations",
-    "verb": "publish",
-    "operation_count": 5,
-    "kinds": {
-      "http": 4,
-      "cli": 1
-    }
-  },
-  {
-    "id": "general_operations.read",
-    "domain": "general_operations",
-    "verb": "read",
-    "operation_count": 226,
-    "kinds": {
-      "http": 221,
-      "cli": 3,
-      "mcp": 2
-    }
-  },
-  {
-    "id": "general_operations.send",
-    "domain": "general_operations",
-    "verb": "send",
-    "operation_count": 10,
-    "kinds": {
-      "http": 8,
-      "cli": 2
-    }
-  },
-  {
-    "id": "general_operations.update",
-    "domain": "general_operations",
-    "verb": "update",
-    "operation_count": 60,
-    "kinds": {
-      "http": 54,
-      "cli": 6
-    }
-  },
-  {
-    "id": "governance_risk.approve",
-    "domain": "governance_risk",
-    "verb": "approve",
-    "operation_count": 3,
-    "kinds": {
-      "http": 3
-    }
-  },
-  {
-    "id": "governance_risk.delete",
-    "domain": "governance_risk",
-    "verb": "delete",
-    "operation_count": 1,
-    "kinds": {
-      "http": 1
-    }
-  },
-  {
-    "id": "governance_risk.deploy",
-    "domain": "governance_risk",
-    "verb": "deploy",
-    "operation_count": 1,
-    "kinds": {
-      "cli": 1
-    }
-  },
-  {
-    "id": "governance_risk.execute",
-    "domain": "governance_risk",
-    "verb": "execute",
-    "operation_count": 6,
-    "kinds": {
-      "cli": 3,
-      "job": 3
-    }
-  },
-  {
-    "id": "governance_risk.operate",
-    "domain": "governance_risk",
-    "verb": "operate",
-    "operation_count": 34,
-    "kinds": {
-      "http": 25,
-      "cli": 9
-    }
-  },
-  {
-    "id": "governance_risk.read",
-    "domain": "governance_risk",
-    "verb": "read",
-    "operation_count": 17,
-    "kinds": {
-      "http": 17
-    }
-  },
-  {
-    "id": "governance_risk.update",
-    "domain": "governance_risk",
-    "verb": "update",
-    "operation_count": 1,
-    "kinds": {
-      "http": 1
-    }
-  },
-  {
-    "id": "identity_access.analyze",
-    "domain": "identity_access",
-    "verb": "analyze",
-    "operation_count": 3,
-    "kinds": {
-      "http": 3
-    }
-  },
-  {
-    "id": "identity_access.create",
-    "domain": "identity_access",
-    "verb": "create",
-    "operation_count": 3,
-    "kinds": {
-      "cli": 3
-    }
-  },
-  {
-    "id": "identity_access.deploy",
-    "domain": "identity_access",
-    "verb": "deploy",
-    "operation_count": 4,
-    "kinds": {
-      "cli": 4
-    }
-  },
-  {
-    "id": "identity_access.execute",
-    "domain": "identity_access",
-    "verb": "execute",
-    "operation_count": 1,
-    "kinds": {
-      "job": 1
-    }
-  },
-  {
-    "id": "identity_access.operate",
-    "domain": "identity_access",
-    "verb": "operate",
-    "operation_count": 42,
-    "kinds": {
-      "http": 40,
-      "cli": 2
-    }
-  },
-  {
-    "id": "identity_access.read",
-    "domain": "identity_access",
-    "verb": "read",
-    "operation_count": 37,
-    "kinds": {
-      "http": 37
-    }
-  },
-  {
-    "id": "identity_access.send",
-    "domain": "identity_access",
-    "verb": "send",
-    "operation_count": 10,
-    "kinds": {
-      "http": 10
-    }
-  },
-  {
-    "id": "identity_access.update",
-    "domain": "identity_access",
-    "verb": "update",
-    "operation_count": 6,
-    "kinds": {
-      "http": 6
-    }
-  },
-  {
-    "id": "investor_capital.analyze",
-    "domain": "investor_capital",
-    "verb": "analyze",
-    "operation_count": 5,
-    "kinds": {
-      "http": 5
-    }
-  },
-  {
-    "id": "investor_capital.approve",
-    "domain": "investor_capital",
-    "verb": "approve",
-    "operation_count": 5,
-    "kinds": {
-      "job": 2,
-      "cli": 1,
-      "http": 2
-    }
-  },
-  {
-    "id": "investor_capital.create",
-    "domain": "investor_capital",
-    "verb": "create",
-    "operation_count": 12,
-    "kinds": {
-      "cli": 7,
-      "http": 5
-    }
-  },
-  {
-    "id": "investor_capital.delete",
-    "domain": "investor_capital",
-    "verb": "delete",
-    "operation_count": 2,
-    "kinds": {
-      "cli": 1,
-      "http": 1
-    }
-  },
-  {
-    "id": "investor_capital.execute",
-    "domain": "investor_capital",
-    "verb": "execute",
-    "operation_count": 14,
-    "kinds": {
-      "job": 14
-    }
-  },
-  {
-    "id": "investor_capital.export",
-    "domain": "investor_capital",
-    "verb": "export",
-    "operation_count": 5,
-    "kinds": {
-      "http": 5
-    }
-  },
-  {
-    "id": "investor_capital.operate",
-    "domain": "investor_capital",
-    "verb": "operate",
-    "operation_count": 123,
-    "kinds": {
-      "http": 116,
-      "cli": 7
-    }
-  },
-  {
-    "id": "investor_capital.publish",
-    "domain": "investor_capital",
-    "verb": "publish",
-    "operation_count": 2,
-    "kinds": {
-      "http": 2
-    }
-  },
-  {
-    "id": "investor_capital.read",
-    "domain": "investor_capital",
-    "verb": "read",
-    "operation_count": 22,
-    "kinds": {
-      "http": 22
-    }
-  },
-  {
-    "id": "investor_capital.send",
-    "domain": "investor_capital",
-    "verb": "send",
-    "operation_count": 2,
-    "kinds": {
-      "job": 1,
-      "http": 1
-    }
-  },
-  {
-    "id": "investor_capital.update",
-    "domain": "investor_capital",
-    "verb": "update",
-    "operation_count": 15,
-    "kinds": {
-      "http": 15
-    }
-  },
-  {
-    "id": "knowledge_process.approve",
-    "domain": "knowledge_process",
-    "verb": "approve",
-    "operation_count": 5,
-    "kinds": {
-      "http": 5
-    }
-  },
-  {
-    "id": "knowledge_process.create",
-    "domain": "knowledge_process",
-    "verb": "create",
-    "operation_count": 6,
-    "kinds": {
-      "http": 2,
-      "cli": 4
-    }
-  },
-  {
-    "id": "knowledge_process.delete",
-    "domain": "knowledge_process",
-    "verb": "delete",
-    "operation_count": 3,
-    "kinds": {
-      "http": 3
-    }
-  },
-  {
-    "id": "knowledge_process.deploy",
-    "domain": "knowledge_process",
-    "verb": "deploy",
-    "operation_count": 1,
-    "kinds": {
-      "cli": 1
-    }
-  },
-  {
-    "id": "knowledge_process.execute",
-    "domain": "knowledge_process",
-    "verb": "execute",
-    "operation_count": 1,
-    "kinds": {
-      "http": 1
-    }
-  },
-  {
-    "id": "knowledge_process.export",
-    "domain": "knowledge_process",
-    "verb": "export",
-    "operation_count": 1,
-    "kinds": {
-      "http": 1
-    }
-  },
-  {
-    "id": "knowledge_process.operate",
-    "domain": "knowledge_process",
-    "verb": "operate",
-    "operation_count": 85,
-    "kinds": {
-      "http": 82,
-      "cli": 1,
-      "deployment": 2
-    }
-  },
-  {
-    "id": "knowledge_process.publish",
-    "domain": "knowledge_process",
-    "verb": "publish",
-    "operation_count": 4,
-    "kinds": {
-      "http": 4
-    }
-  },
-  {
-    "id": "knowledge_process.read",
-    "domain": "knowledge_process",
-    "verb": "read",
-    "operation_count": 58,
-    "kinds": {
-      "http": 58
-    }
-  },
-  {
-    "id": "knowledge_process.update",
-    "domain": "knowledge_process",
-    "verb": "update",
-    "operation_count": 14,
-    "kinds": {
-      "http": 14
-    }
-  },
-  {
-    "id": "people_hiring.analyze",
-    "domain": "people_hiring",
-    "verb": "analyze",
-    "operation_count": 6,
-    "kinds": {
-      "cli": 3,
-      "http": 3
-    }
-  },
-  {
-    "id": "people_hiring.approve",
-    "domain": "people_hiring",
-    "verb": "approve",
-    "operation_count": 3,
-    "kinds": {
-      "http": 3
-    }
-  },
-  {
-    "id": "people_hiring.create",
-    "domain": "people_hiring",
-    "verb": "create",
-    "operation_count": 5,
-    "kinds": {
-      "http": 4,
-      "cli": 1
-    }
-  },
-  {
-    "id": "people_hiring.delete",
-    "domain": "people_hiring",
-    "verb": "delete",
-    "operation_count": 1,
-    "kinds": {
-      "http": 1
-    }
-  },
-  {
-    "id": "people_hiring.execute",
-    "domain": "people_hiring",
-    "verb": "execute",
-    "operation_count": 46,
-    "kinds": {
-      "job": 32,
-      "http": 14
-    }
-  },
-  {
-    "id": "people_hiring.export",
-    "domain": "people_hiring",
-    "verb": "export",
-    "operation_count": 1,
-    "kinds": {
-      "http": 1
-    }
-  },
-  {
-    "id": "people_hiring.operate",
-    "domain": "people_hiring",
-    "verb": "operate",
-    "operation_count": 32,
-    "kinds": {
-      "http": 32
-    }
-  },
-  {
-    "id": "people_hiring.publish",
-    "domain": "people_hiring",
-    "verb": "publish",
-    "operation_count": 2,
-    "kinds": {
-      "http": 2
-    }
-  },
-  {
-    "id": "people_hiring.read",
-    "domain": "people_hiring",
-    "verb": "read",
-    "operation_count": 28,
-    "kinds": {
-      "http": 28
-    }
-  },
-  {
-    "id": "people_hiring.update",
-    "domain": "people_hiring",
-    "verb": "update",
-    "operation_count": 6,
-    "kinds": {
-      "http": 6
-    }
-  },
-  {
-    "id": "projects_work.create",
-    "domain": "projects_work",
-    "verb": "create",
-    "operation_count": 1,
-    "kinds": {
-      "cli": 1
-    }
-  },
-  {
-    "id": "projects_work.delete",
-    "domain": "projects_work",
-    "verb": "delete",
-    "operation_count": 4,
-    "kinds": {
-      "http": 4
-    }
-  },
-  {
-    "id": "projects_work.operate",
-    "domain": "projects_work",
-    "verb": "operate",
-    "operation_count": 7,
-    "kinds": {
-      "http": 7
-    }
-  },
-  {
-    "id": "projects_work.read",
-    "domain": "projects_work",
-    "verb": "read",
-    "operation_count": 11,
-    "kinds": {
-      "http": 11
-    }
-  },
-  {
-    "id": "projects_work.update",
-    "domain": "projects_work",
-    "verb": "update",
-    "operation_count": 7,
-    "kinds": {
-      "http": 7
-    }
-  },
-  {
-    "id": "property_assets.analyze",
-    "domain": "property_assets",
-    "verb": "analyze",
-    "operation_count": 12,
-    "kinds": {
-      "http": 12
-    }
-  },
-  {
-    "id": "property_assets.approve",
-    "domain": "property_assets",
-    "verb": "approve",
-    "operation_count": 3,
-    "kinds": {
-      "http": 3
-    }
-  },
-  {
-    "id": "property_assets.create",
-    "domain": "property_assets",
-    "verb": "create",
-    "operation_count": 6,
-    "kinds": {
-      "cli": 2,
-      "http": 4
-    }
-  },
-  {
-    "id": "property_assets.delete",
-    "domain": "property_assets",
-    "verb": "delete",
-    "operation_count": 1,
-    "kinds": {
-      "http": 1
-    }
-  },
-  {
-    "id": "property_assets.execute",
-    "domain": "property_assets",
-    "verb": "execute",
-    "operation_count": 3,
-    "kinds": {
-      "job": 3
-    }
-  },
-  {
-    "id": "property_assets.export",
-    "domain": "property_assets",
-    "verb": "export",
-    "operation_count": 1,
-    "kinds": {
-      "http": 1
-    }
-  },
-  {
-    "id": "property_assets.operate",
-    "domain": "property_assets",
-    "verb": "operate",
-    "operation_count": 66,
-    "kinds": {
-      "http": 66
-    }
-  },
-  {
-    "id": "property_assets.read",
-    "domain": "property_assets",
-    "verb": "read",
-    "operation_count": 32,
-    "kinds": {
-      "http": 32
-    }
-  },
-  {
-    "id": "property_assets.update",
-    "domain": "property_assets",
-    "verb": "update",
-    "operation_count": 10,
-    "kinds": {
-      "http": 10
-    }
-  },
-  {
-    "id": "relationship_crm.analyze",
-    "domain": "relationship_crm",
-    "verb": "analyze",
-    "operation_count": 24,
-    "kinds": {
-      "http": 23,
-      "cli": 1
-    }
-  },
-  {
-    "id": "relationship_crm.approve",
-    "domain": "relationship_crm",
-    "verb": "approve",
-    "operation_count": 7,
-    "kinds": {
-      "http": 6,
-      "job": 1
-    }
-  },
-  {
-    "id": "relationship_crm.create",
-    "domain": "relationship_crm",
-    "verb": "create",
-    "operation_count": 37,
-    "kinds": {
-      "http": 10,
-      "mcp": 7,
-      "cli": 20
-    }
-  },
-  {
-    "id": "relationship_crm.delete",
-    "domain": "relationship_crm",
-    "verb": "delete",
-    "operation_count": 9,
-    "kinds": {
-      "http": 9
-    }
-  },
-  {
-    "id": "relationship_crm.deploy",
-    "domain": "relationship_crm",
-    "verb": "deploy",
-    "operation_count": 4,
-    "kinds": {
-      "cli": 3,
-      "http": 1
-    }
-  },
-  {
-    "id": "relationship_crm.execute",
-    "domain": "relationship_crm",
-    "verb": "execute",
-    "operation_count": 60,
-    "kinds": {
-      "job": 50,
-      "http": 6,
-      "mcp": 1,
-      "cli": 3
-    }
-  },
-  {
-    "id": "relationship_crm.export",
-    "domain": "relationship_crm",
-    "verb": "export",
-    "operation_count": 8,
-    "kinds": {
-      "http": 8
-    }
-  },
-  {
-    "id": "relationship_crm.operate",
-    "domain": "relationship_crm",
-    "verb": "operate",
-    "operation_count": 127,
-    "kinds": {
-      "http": 83,
-      "mcp": 10,
-      "cli": 33,
-      "deployment": 1
-    }
-  },
-  {
-    "id": "relationship_crm.publish",
-    "domain": "relationship_crm",
-    "verb": "publish",
-    "operation_count": 2,
-    "kinds": {
-      "http": 2
-    }
-  },
-  {
-    "id": "relationship_crm.read",
-    "domain": "relationship_crm",
-    "verb": "read",
-    "operation_count": 155,
-    "kinds": {
-      "http": 145,
-      "mcp": 7,
-      "cli": 3
-    }
-  },
-  {
-    "id": "relationship_crm.send",
-    "domain": "relationship_crm",
-    "verb": "send",
-    "operation_count": 9,
-    "kinds": {
-      "http": 9
-    }
-  },
-  {
-    "id": "relationship_crm.update",
-    "domain": "relationship_crm",
-    "verb": "update",
-    "operation_count": 36,
-    "kinds": {
-      "http": 34,
-      "cli": 2
-    }
-  },
-  {
-    "id": "support_care.approve",
-    "domain": "support_care",
-    "verb": "approve",
-    "operation_count": 1,
-    "kinds": {
-      "cli": 1
-    }
-  },
-  {
-    "id": "support_care.create",
-    "domain": "support_care",
-    "verb": "create",
-    "operation_count": 2,
-    "kinds": {
-      "cli": 2
-    }
-  },
-  {
-    "id": "support_care.operate",
-    "domain": "support_care",
-    "verb": "operate",
-    "operation_count": 12,
-    "kinds": {
-      "http": 7,
-      "cli": 5
-    }
-  },
-  {
-    "id": "support_care.read",
-    "domain": "support_care",
-    "verb": "read",
-    "operation_count": 5,
-    "kinds": {
-      "http": 5
-    }
-  },
-  {
-    "id": "support_care.update",
-    "domain": "support_care",
-    "verb": "update",
-    "operation_count": 2,
-    "kinds": {
-      "http": 2
-    }
-  },
-  {
-    "id": "workflow_automation.approve",
-    "domain": "workflow_automation",
-    "verb": "approve",
-    "operation_count": 4,
-    "kinds": {
-      "job": 2,
-      "http": 2
-    }
-  },
-  {
-    "id": "workflow_automation.create",
-    "domain": "workflow_automation",
-    "verb": "create",
-    "operation_count": 10,
-    "kinds": {
-      "http": 8,
-      "cli": 2
-    }
-  },
-  {
-    "id": "workflow_automation.delete",
-    "domain": "workflow_automation",
-    "verb": "delete",
-    "operation_count": 5,
-    "kinds": {
-      "job": 3,
-      "http": 2
-    }
-  },
-  {
-    "id": "workflow_automation.deploy",
-    "domain": "workflow_automation",
-    "verb": "deploy",
-    "operation_count": 2,
-    "kinds": {
-      "job": 1,
-      "cli": 1
-    }
-  },
-  {
-    "id": "workflow_automation.execute",
-    "domain": "workflow_automation",
-    "verb": "execute",
-    "operation_count": 226,
-    "kinds": {
-      "job": 188,
-      "cli": 31,
-      "http": 7
-    }
-  },
-  {
-    "id": "workflow_automation.export",
-    "domain": "workflow_automation",
-    "verb": "export",
-    "operation_count": 1,
-    "kinds": {
-      "http": 1
-    }
-  },
-  {
-    "id": "workflow_automation.operate",
-    "domain": "workflow_automation",
-    "verb": "operate",
-    "operation_count": 73,
-    "kinds": {
-      "http": 60,
-      "cli": 13
-    }
-  },
-  {
-    "id": "workflow_automation.publish",
-    "domain": "workflow_automation",
-    "verb": "publish",
-    "operation_count": 6,
-    "kinds": {
-      "job": 4,
-      "http": 2
-    }
-  },
-  {
-    "id": "workflow_automation.read",
-    "domain": "workflow_automation",
-    "verb": "read",
-    "operation_count": 36,
-    "kinds": {
-      "http": 36
-    }
-  },
-  {
-    "id": "workflow_automation.send",
-    "domain": "workflow_automation",
-    "verb": "send",
-    "operation_count": 16,
-    "kinds": {
-      "job": 8,
-      "http": 5,
-      "cli": 3
-    }
-  },
-  {
-    "id": "workflow_automation.update",
-    "domain": "workflow_automation",
-    "verb": "update",
-    "operation_count": 5,
-    "kinds": {
-      "http": 5
-    }
-  }
-]
+{
+  "snapshot": "2026-10-07",
+  "definition": "One distinct verb + business object; delivery interfaces, bulk variants, list/detail reads and duplicate repositories do not add actions.",
+  "actions": [
+    {
+      "id": "find-contacts",
+      "domain": "Relationships & CRM",
+      "name": "Find contacts",
+      "description": "Find contact records and inspect their details.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "create-a-contact",
+      "domain": "Relationships & CRM",
+      "name": "Create a contact",
+      "description": "Add a new contact record.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "update-a-contact",
+      "domain": "Relationships & CRM",
+      "name": "Update a contact",
+      "description": "Change the fields on an existing contact.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "merge-contacts",
+      "domain": "Relationships & CRM",
+      "name": "Merge contacts",
+      "description": "Combine duplicate contact records.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "import-contacts",
+      "domain": "Relationships & CRM",
+      "name": "Import contacts",
+      "description": "Bring contact records into the application.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "tag-a-contact",
+      "domain": "Relationships & CRM",
+      "name": "Tag a contact",
+      "description": "Attach a classification tag to a contact.",
+      "interfaces": ["AI tool", "Application"]
+    },
+    {
+      "id": "remove-a-contact-tag",
+      "domain": "Relationships & CRM",
+      "name": "Remove a contact tag",
+      "description": "Remove a classification tag from a contact.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "add-a-contact-note",
+      "domain": "Relationships & CRM",
+      "name": "Add a contact note",
+      "description": "Record context alongside a contact.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-contact-notes",
+      "domain": "Relationships & CRM",
+      "name": "Read contact notes",
+      "description": "Retrieve the notes attached to a contact.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "review-contact-activity",
+      "domain": "Relationships & CRM",
+      "name": "Review contact activity",
+      "description": "Inspect a contact’s recorded activity.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-the-pipeline",
+      "domain": "Relationships & CRM",
+      "name": "Read the pipeline",
+      "description": "Inspect leads in the relationship pipeline.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "move-a-lead-between-stages",
+      "domain": "Relationships & CRM",
+      "name": "Move a lead between stages",
+      "description": "Change a lead’s pipeline stage.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-appointments",
+      "domain": "Relationships & CRM",
+      "name": "Read appointments",
+      "description": "Inspect scheduled appointments.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "create-an-audience-list",
+      "domain": "Audiences & campaigns",
+      "name": "Create an audience list",
+      "description": "Save a list that groups contacts for a purpose.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "find-audience-lists",
+      "domain": "Audiences & campaigns",
+      "name": "Find audience lists",
+      "description": "Inspect saved lists and their details.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "update-an-audience-list",
+      "domain": "Audiences & campaigns",
+      "name": "Update an audience list",
+      "description": "Change a saved list’s configuration.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "preview-an-audience",
+      "domain": "Audiences & campaigns",
+      "name": "Preview an audience",
+      "description": "Check prospective membership before using a list.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-audience-membership",
+      "domain": "Audiences & campaigns",
+      "name": "Read audience membership",
+      "description": "Inspect which contacts belong to a list.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "add-audience-members",
+      "domain": "Audiences & campaigns",
+      "name": "Add audience members",
+      "description": "Add contacts to an audience list.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "remove-audience-members",
+      "domain": "Audiences & campaigns",
+      "name": "Remove audience members",
+      "description": "Remove contacts from an audience list.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "export-an-audience",
+      "domain": "Audiences & campaigns",
+      "name": "Export an audience",
+      "description": "Produce an export of list membership.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "draft-a-follow-up-sequence",
+      "domain": "Audiences & campaigns",
+      "name": "Draft a follow-up sequence",
+      "description": "Prepare a cadence before it starts.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "start-a-follow-up-sequence",
+      "domain": "Audiences & campaigns",
+      "name": "Start a follow-up sequence",
+      "description": "Start an existing cadence for its configured audience.",
+      "interfaces": ["Application", "Background automation"]
+    },
+    {
+      "id": "pause-a-follow-up-sequence",
+      "domain": "Audiences & campaigns",
+      "name": "Pause a follow-up sequence",
+      "description": "Suspend an active cadence or campaign.",
+      "interfaces": ["AI tool", "Application"]
+    },
+    {
+      "id": "resume-a-follow-up-sequence",
+      "domain": "Audiences & campaigns",
+      "name": "Resume a follow-up sequence",
+      "description": "Resume a paused cadence or campaign.",
+      "interfaces": ["AI tool", "Application"]
+    },
+    {
+      "id": "cancel-a-follow-up-sequence",
+      "domain": "Audiences & campaigns",
+      "name": "Cancel a follow-up sequence",
+      "description": "Cancel a cadence.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "configure-a-follow-up-sequence",
+      "domain": "Audiences & campaigns",
+      "name": "Configure a follow-up sequence",
+      "description": "Change cadence settings.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "enroll-a-contact-in-a-workflow",
+      "domain": "Audiences & campaigns",
+      "name": "Enroll a contact in a workflow",
+      "description": "Add a contact to a communication workflow.",
+      "interfaces": ["AI tool", "Application"]
+    },
+    {
+      "id": "prepare-a-broadcast",
+      "domain": "Audiences & campaigns",
+      "name": "Prepare a broadcast",
+      "description": "Create a broadcast for a selected audience.",
+      "interfaces": ["Application", "Background automation"]
+    },
+    {
+      "id": "send-an-email",
+      "domain": "Communications",
+      "name": "Send an email",
+      "description": "Send email through a connected provider; personal and batch delivery are variants of this action.",
+      "interfaces": ["Application", "Background automation"]
+    },
+    {
+      "id": "send-a-text-message",
+      "domain": "Communications",
+      "name": "Send a text message",
+      "description": "Send SMS through a connected provider.",
+      "interfaces": ["AI tool", "Application"]
+    },
+    {
+      "id": "start-an-ai-assisted-call",
+      "domain": "Communications",
+      "name": "Start an AI-assisted call",
+      "description": "Initiate a call through the configured AI calling service.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "control-a-human-call",
+      "domain": "Communications",
+      "name": "Control a human call",
+      "description": "Operate an active human call session.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-active-calls",
+      "domain": "Communications",
+      "name": "Read active calls",
+      "description": "Inspect current human call sessions.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "retrieve-a-call-recording",
+      "domain": "Communications",
+      "name": "Retrieve a call recording",
+      "description": "Retrieve the recording associated with a call.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "record-call-follow-through",
+      "domain": "Communications",
+      "name": "Record call follow-through",
+      "description": "Complete the aftercare step for a human call.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-communication-history",
+      "domain": "Communications",
+      "name": "Read communication history",
+      "description": "Inspect messages and calls in a communication timeline.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "check-sending-capacity",
+      "domain": "Communications",
+      "name": "Check sending capacity",
+      "description": "Inspect available delivery capacity.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "inspect-email-deliverability",
+      "domain": "Communications",
+      "name": "Inspect email deliverability",
+      "description": "Review deliverability information for connected sending infrastructure.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "unsubscribe-a-recipient",
+      "domain": "Communications",
+      "name": "Unsubscribe a recipient",
+      "description": "Record an opt-out from communications.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-an-investor-profile",
+      "domain": "Investors & capital",
+      "name": "Read an investor profile",
+      "description": "Retrieve the signed-in investor’s profile.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-accreditation-status",
+      "domain": "Investors & capital",
+      "name": "Read accreditation status",
+      "description": "Inspect an investor’s accreditation state.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "submit-accreditation-information",
+      "domain": "Investors & capital",
+      "name": "Submit accreditation information",
+      "description": "Submit information through the accreditation workflow.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "create-an-investment-request",
+      "domain": "Investors & capital",
+      "name": "Create an investment request",
+      "description": "Begin an investment request for the investor.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-an-investment-request",
+      "domain": "Investors & capital",
+      "name": "Read an investment request",
+      "description": "Inspect an existing investment record.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "submit-an-investment-request",
+      "domain": "Investors & capital",
+      "name": "Submit an investment request",
+      "description": "Submit an existing investment request for processing.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "cancel-an-investment-request",
+      "domain": "Investors & capital",
+      "name": "Cancel an investment request",
+      "description": "Cancel an existing investment request.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "acknowledge-a-wire",
+      "domain": "Investors & capital",
+      "name": "Acknowledge a wire",
+      "description": "Record a wire acknowledgment against an investment; this does not transfer funds.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "approve-an-investment-request",
+      "domain": "Investors & capital",
+      "name": "Approve an investment request",
+      "description": "Record an authorized staff approval of a pending investment.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "reject-an-investment-request",
+      "domain": "Investors & capital",
+      "name": "Reject an investment request",
+      "description": "Record an authorized staff rejection of a pending investment.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "create-an-offering",
+      "domain": "Investors & capital",
+      "name": "Create an offering",
+      "description": "Create an investment offering record.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "update-an-offering",
+      "domain": "Investors & capital",
+      "name": "Update an offering",
+      "description": "Edit an existing offering record.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "publish-an-offering",
+      "domain": "Investors & capital",
+      "name": "Publish an offering",
+      "description": "Publish an offering through the staff workflow.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "create-a-job-opening",
+      "domain": "People & hiring",
+      "name": "Create a job opening",
+      "description": "Create a hiring role or job record.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "update-a-job-opening",
+      "domain": "People & hiring",
+      "name": "Update a job opening",
+      "description": "Edit an existing hiring role.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-job-openings",
+      "domain": "People & hiring",
+      "name": "Read job openings",
+      "description": "Inspect job records and details.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "submit-a-job-application",
+      "domain": "People & hiring",
+      "name": "Submit a job application",
+      "description": "Submit an applicant’s completed application.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "upload-application-documents",
+      "domain": "People & hiring",
+      "name": "Upload application documents",
+      "description": "Attach documents to an application.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "preview-an-applicant-profile",
+      "domain": "People & hiring",
+      "name": "Preview an applicant profile",
+      "description": "Preview application information before submission.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-candidate-records",
+      "domain": "People & hiring",
+      "name": "Read candidate records",
+      "description": "Inspect candidate records and details for human review.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "create-a-candidate-record",
+      "domain": "People & hiring",
+      "name": "Create a candidate record",
+      "description": "Add a candidate to the hiring workflow.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "update-a-candidate-record",
+      "domain": "People & hiring",
+      "name": "Update a candidate record",
+      "description": "Edit an existing candidate’s record.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-employee-records",
+      "domain": "People & hiring",
+      "name": "Read employee records",
+      "description": "Inspect the staff directory and employee details.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "create-an-employee-record",
+      "domain": "People & hiring",
+      "name": "Create an employee record",
+      "description": "Add a person to the employee directory.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "update-an-employee-record",
+      "domain": "People & hiring",
+      "name": "Update an employee record",
+      "description": "Change an employee’s directory information.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "start-employee-onboarding",
+      "domain": "People & hiring",
+      "name": "Start employee onboarding",
+      "description": "Start the onboarding lifecycle for an approved hire.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "transfer-an-employee",
+      "domain": "People & hiring",
+      "name": "Transfer an employee",
+      "description": "Run the configured employee transfer workflow.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "complete-an-onboarding-step",
+      "domain": "People & hiring",
+      "name": "Complete an onboarding step",
+      "description": "Record completion of a manual lifecycle step.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "create-a-project",
+      "domain": "Projects & tasks",
+      "name": "Create a project",
+      "description": "Create a project to organize delivery.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-projects",
+      "domain": "Projects & tasks",
+      "name": "Read projects",
+      "description": "Inspect project records and details.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "update-a-project",
+      "domain": "Projects & tasks",
+      "name": "Update a project",
+      "description": "Change an existing project.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "create-a-task",
+      "domain": "Projects & tasks",
+      "name": "Create a task",
+      "description": "Add a task to a project or operational work queue.",
+      "interfaces": ["AI tool", "Application"]
+    },
+    {
+      "id": "update-a-task",
+      "domain": "Projects & tasks",
+      "name": "Update a task",
+      "description": "Change an existing task record.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-tasks",
+      "domain": "Projects & tasks",
+      "name": "Read tasks",
+      "description": "Inspect operational tasks.",
+      "interfaces": ["AI tool", "Application"]
+    },
+    {
+      "id": "find-properties",
+      "domain": "Properties & acquisitions",
+      "name": "Find properties",
+      "description": "Inspect property records and details.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "update-property-records",
+      "domain": "Properties & acquisitions",
+      "name": "Update property records",
+      "description": "Change individual properties or apply bulk changes.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "import-properties",
+      "domain": "Properties & acquisitions",
+      "name": "Import properties",
+      "description": "Import property data into the application.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "analyze-a-property",
+      "domain": "Properties & acquisitions",
+      "name": "Analyze a property",
+      "description": "Generate analysis for a property.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "recalculate-property-scores",
+      "domain": "Properties & acquisitions",
+      "name": "Recalculate property scores",
+      "description": "Recompute property scores using configured criteria.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "generate-property-rankings",
+      "domain": "Properties & acquisitions",
+      "name": "Generate property rankings",
+      "description": "Generate a ranked property run.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "export-property-rankings",
+      "domain": "Properties & acquisitions",
+      "name": "Export property rankings",
+      "description": "Export a generated property run.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-an-owner-s-portfolio",
+      "domain": "Properties & acquisitions",
+      "name": "Read an owner’s portfolio",
+      "description": "Inspect properties associated with an owner.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "merge-owner-records",
+      "domain": "Properties & acquisitions",
+      "name": "Merge owner records",
+      "description": "Consolidate duplicate property-owner records.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "create-an-acquisition-deal",
+      "domain": "Properties & acquisitions",
+      "name": "Create an acquisition deal",
+      "description": "Create a deal record.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-acquisition-deals",
+      "domain": "Properties & acquisitions",
+      "name": "Read acquisition deals",
+      "description": "Inspect acquisition deal records and details.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "update-an-acquisition-deal",
+      "domain": "Properties & acquisitions",
+      "name": "Update an acquisition deal",
+      "description": "Change an existing deal record.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "create-a-buyer-record",
+      "domain": "Properties & acquisitions",
+      "name": "Create a buyer record",
+      "description": "Add a buyer to the acquisition workflow.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "update-a-buyer-record",
+      "domain": "Properties & acquisitions",
+      "name": "Update a buyer record",
+      "description": "Edit an existing buyer record.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "analyze-investor-conversion",
+      "domain": "Reporting & analysis",
+      "name": "Analyze investor conversion",
+      "description": "Inspect funnel activity to understand conversion.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-campaign-engagement",
+      "domain": "Reporting & analysis",
+      "name": "Read campaign engagement",
+      "description": "Inspect engagement with a follow-up sequence.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "create-a-report",
+      "domain": "Reporting & analysis",
+      "name": "Create a report",
+      "description": "Create a report definition.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "generate-a-report",
+      "domain": "Reporting & analysis",
+      "name": "Generate a report",
+      "description": "Generate the content of a configured report.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "refresh-a-report",
+      "domain": "Reporting & analysis",
+      "name": "Refresh a report",
+      "description": "Refresh an existing report.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "export-a-report",
+      "domain": "Reporting & analysis",
+      "name": "Export a report",
+      "description": "Produce an export of a report.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-reports",
+      "domain": "Reporting & analysis",
+      "name": "Read reports",
+      "description": "Inspect saved reports and their details.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "draft-an-operating-procedure",
+      "domain": "Processes & knowledge",
+      "name": "Draft an operating procedure",
+      "description": "Save a draft SOP for review.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "generate-an-operating-procedure",
+      "domain": "Processes & knowledge",
+      "name": "Generate an operating procedure",
+      "description": "Generate SOP content within a process workflow.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "publish-an-operating-procedure",
+      "domain": "Processes & knowledge",
+      "name": "Publish an operating procedure",
+      "description": "Publish an SOP through its review workflow.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "export-an-operating-procedure",
+      "domain": "Processes & knowledge",
+      "name": "Export an operating procedure",
+      "description": "Export an SOP in a supported format.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-procedure-revisions",
+      "domain": "Processes & knowledge",
+      "name": "Read procedure revisions",
+      "description": "Inspect prior revisions of an SOP.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "record-a-process-run",
+      "domain": "Processes & knowledge",
+      "name": "Record a process run",
+      "description": "Record the execution of an operational process.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "apply-a-process-gate",
+      "domain": "Processes & knowledge",
+      "name": "Apply a process gate",
+      "description": "Apply a configured review gate to a process.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-finance-books",
+      "domain": "Finance & governance",
+      "name": "Read finance books",
+      "description": "Inspect company, vehicle and asset books within configured access.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "ingest-finance-documents",
+      "domain": "Finance & governance",
+      "name": "Ingest finance documents",
+      "description": "Bring finance documents into the finance workflow.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "bind-finance-evidence",
+      "domain": "Finance & governance",
+      "name": "Bind finance evidence",
+      "description": "Associate ingested information with the finance graph.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "close-a-finance-exception",
+      "domain": "Finance & governance",
+      "name": "Close a finance exception",
+      "description": "Close a residual item through the finance review workflow.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "check-action-authority",
+      "domain": "Finance & governance",
+      "name": "Check action authority",
+      "description": "Inspect who may perform an operation under configured policy.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "record-an-attestation",
+      "domain": "Finance & governance",
+      "name": "Record an attestation",
+      "description": "Record an attestation in the governance workflow.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-governance-policies",
+      "domain": "Finance & governance",
+      "name": "Read governance policies",
+      "description": "Inspect configured governance policies.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-responsibility-assignments",
+      "domain": "Finance & governance",
+      "name": "Read responsibility assignments",
+      "description": "Inspect recorded assignments of responsibility.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "quarantine-uncertain-data",
+      "domain": "Data & integrations",
+      "name": "Quarantine uncertain data",
+      "description": "Hold uncertain records for review.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "promote-reviewed-data",
+      "domain": "Data & integrations",
+      "name": "Promote reviewed data",
+      "description": "Promote approved records from the review workflow.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "ingest-a-system-event",
+      "domain": "Data & integrations",
+      "name": "Ingest a system event",
+      "description": "Accept a versioned event for downstream processing.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "retry-an-event-delivery",
+      "domain": "Data & integrations",
+      "name": "Retry an event delivery",
+      "description": "Retry a downstream delivery that requires another attempt.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "refresh-contact-enrichment",
+      "domain": "Relationships & CRM",
+      "name": "Refresh contact enrichment",
+      "description": "Refresh supplemental information on a contact.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "research-a-property",
+      "domain": "Properties & acquisitions",
+      "name": "Research a property",
+      "description": "Gather research for a selected property.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "export-a-property-report",
+      "domain": "Properties & acquisitions",
+      "name": "Export a property report",
+      "description": "Export a property’s portfolio report.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-investment-documents",
+      "domain": "Investors & capital",
+      "name": "Read investment documents",
+      "description": "View or download investor documents within authorized access.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "submit-a-support-request",
+      "domain": "Support",
+      "name": "Submit a support request",
+      "description": "Create an investor support request.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "check-support-notifications",
+      "domain": "Support",
+      "name": "Check support notifications",
+      "description": "Inspect the count of support notifications.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "synchronize-support-email",
+      "domain": "Support",
+      "name": "Synchronize support email",
+      "description": "Bring support-mailbox messages into the support workflow.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "group-related-support-issues",
+      "domain": "Support",
+      "name": "Group related support issues",
+      "description": "Run the support-issue clustering process.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "propose-an-action",
+      "domain": "AI-assisted work",
+      "name": "Propose an action",
+      "description": "Create an inspectable action proposal for review.",
+      "interfaces": ["AI tool", "Application"]
+    },
+    {
+      "id": "read-proposed-actions",
+      "domain": "AI-assisted work",
+      "name": "Read proposed actions",
+      "description": "Inspect action proposals before execution.",
+      "interfaces": ["AI tool", "Application"]
+    },
+    {
+      "id": "record-an-action-approval",
+      "domain": "AI-assisted work",
+      "name": "Record an action approval",
+      "description": "Record approval in the app’s action-review workflow.",
+      "interfaces": ["AI tool", "Application"]
+    },
+    {
+      "id": "read-action-approvals",
+      "domain": "AI-assisted work",
+      "name": "Read action approvals",
+      "description": "Inspect recorded action approvals.",
+      "interfaces": ["AI tool", "Application"]
+    },
+    {
+      "id": "read-delivery-plans",
+      "domain": "Engineering oversight",
+      "name": "Read delivery plans",
+      "description": "Inspect engineering plans and their details.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "assess-a-delivery-plan",
+      "domain": "Engineering oversight",
+      "name": "Assess a delivery plan",
+      "description": "Request an assessment of an engineering plan.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "read-agent-activity",
+      "domain": "Engineering oversight",
+      "name": "Read agent activity",
+      "description": "Inspect the engineering agent overview.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "inspect-engineering-usage",
+      "domain": "Engineering oversight",
+      "name": "Inspect engineering usage",
+      "description": "Inspect usage information in the engineering observatory.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "inspect-engineering-capacity",
+      "domain": "Engineering oversight",
+      "name": "Inspect engineering capacity",
+      "description": "Inspect capacity information in the engineering observatory.",
+      "interfaces": ["Application"]
+    },
+    {
+      "id": "normalize-source-records",
+      "domain": "Data & integrations",
+      "name": "Normalize source records",
+      "description": "Run the data-normalization process.",
+      "interfaces": ["Background automation"]
+    },
+    {
+      "id": "enrich-source-records",
+      "domain": "Data & integrations",
+      "name": "Enrich source records",
+      "description": "Run enrichment for source records.",
+      "interfaces": ["Background automation"]
+    },
+    {
+      "id": "resolve-source-identities",
+      "domain": "Data & integrations",
+      "name": "Resolve source identities",
+      "description": "Run entity-resolution across source records.",
+      "interfaces": ["Background automation"]
+    },
+    {
+      "id": "export-prospect-candidates",
+      "domain": "Data & integrations",
+      "name": "Export prospect candidates",
+      "description": "Export prospect candidates from the data-refinery process.",
+      "interfaces": ["Background automation"]
+    }
+  ]
+}

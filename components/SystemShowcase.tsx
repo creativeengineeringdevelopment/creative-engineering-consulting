@@ -2,6 +2,7 @@
 import { useRef, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import actionCatalog from "@/lib/capability-inventory.json";
 import { appScreenshots } from "@/lib/app-screenshots";
 import { Arrow, Label } from "@/components/Shared";
 import { CapabilityAtlas } from "@/components/CapabilityAtlas";
@@ -35,7 +36,8 @@ export function SystemShowcase({ dedicated = false }: { dedicated?: boolean }) {
         {!dedicated && (
           <p className="atlas-full-link">
             <Link className="text-link" href="/capabilities">
-              Explore the full Capability Atlas · 141 candidate groups <Arrow />
+              Explore the full Capability Atlas · {actionCatalog.actions.length}{" "}
+              application actions <Arrow />
             </Link>
           </p>
         )}

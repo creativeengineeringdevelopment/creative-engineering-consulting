@@ -7,6 +7,13 @@ export const cases = [
     title: "An operating platform for a 30,000-investor business.",
     summary:
       "Connecting investor workflows, relationship operations and communication infrastructure in an AI-enabled platform.",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "OpenAI / Vercel AI SDK",
+      "PostgreSQL / Neon",
+      "Trigger.dev",
+    ],
     period: "2025–2026",
     role: "Chief Technology Officer",
     metric: "30,000",
@@ -42,6 +49,7 @@ export const cases = [
     title: "Connecting tokenized assets to institutional infrastructure.",
     summary:
       "Development leadership and integration work across custody and investor infrastructure during ATS / broker-dealer application preparation.",
+    technologies: ["Brassica", "BitGo", "Investor & custody integrations"],
     period: "2023–2024",
     role: "Development & integration leadership",
     metric: "Custody ↔ workflows",
@@ -77,6 +85,7 @@ export const cases = [
     title: "From incoming lead to an acquisition workflow.",
     summary:
       "Data and acquisition systems informed by hands-on exposure to wholesaling, flipping and real-estate operations with Tarek El Moussa’s businesses.",
+    technologies: ["Salesforce", "Snowflake", "Twilio Segment"],
     period: "2024–2025",
     role: "Data & acquisition systems",
     metric: "Signal → action",

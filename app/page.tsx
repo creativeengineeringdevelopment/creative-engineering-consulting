@@ -2,6 +2,7 @@ import Link from "next/link";
 import { Arrow, CTA, Label } from "@/components/Shared";
 import { WorkCards } from "@/components/WorkCards";
 import { CapabilityDemo } from "@/components/CapabilityDemo";
+import { ExperienceBrands, TechnologyStack } from "@/components/Credibility";
 export default function Home() {
   return (
     <main id="main-content">
@@ -91,6 +92,7 @@ export default function Home() {
           <span>Investor operations</span>
         </div>
       </section>
+      <ExperienceBrands />
       <section className="section container">
         <div className="section-heading">
           <div>
@@ -184,6 +186,7 @@ export default function Home() {
         </div>
         <CapabilityDemo />
       </section>
+      <TechnologyStack />
       <section className="section offer-section">
         <div className="container">
           <div className="section-heading">

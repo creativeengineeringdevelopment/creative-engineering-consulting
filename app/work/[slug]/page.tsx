@@ -73,6 +73,14 @@ export default async function CaseStudy({
         <aside>
           <Label>IN PRACTICE</Label>
           <p>A field note on systems, decisions and operating context.</p>
+          <div className="case-technologies">
+            <Label>TECHNOLOGIES & INTEGRATIONS</Label>
+            <ul className="technology-tags">
+              {c.technologies.map((t) => (
+                <li key={t}>{t}</li>
+              ))}
+            </ul>
+          </div>
         </aside>
         <div className="case-prose">
           <h2>The operating challenge</h2>

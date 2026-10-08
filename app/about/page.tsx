@@ -84,6 +84,22 @@ export default function About() {
           See the work behind the story <Arrow />
         </Link>
       </section>
+      <section className="container section" id="hospitality">
+        <Label>HOSPITALITY & DIGITAL OPERATIONS</Label>
+        <h2>
+          Another operating lens: <em>Mariposa.</em>
+        </h2>
+        <p className="lede">
+          As a general partner at Mariposa Beach Resort, I bring the same
+          systems thinking to hospitality.
+        </p>
+        <p>
+          My work spans digital systems and investor operations, including
+          website and content-management infrastructure and guest-experience
+          applications. It connects the business behind the stay with the
+          experience a guest actually has.
+        </p>
+      </section>
       <CTA />
     </main>
   );

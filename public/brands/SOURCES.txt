@@ -1,0 +1,7 @@
+tem-capital.png: https://temcapital.co/wp-content/uploads/2024/08/Logo-v2-768x129.png
+premier-law-group.png: https://images.squarespace-cdn.com/content/v1/675ca88667450152f23a110c/702f8bfb-5260-479d-a4c8-453b85c98706/PLG+Logos+%281%29.png?format=500w
+retokens.png: https://retokens.com/wp-content/uploads/2024/01/REtokens-PrimFC-Logo-RGB-e1765830531635.png
+mariposa.png: https://www.mariposabeachresort.com/wp-content/uploads/2024/08/cropped-MARIPOSA-LOGO-PRIMARY-1920x1080.png
+tarek-buys-houses.webp: https://tarekbuyshouses.com/images/tbh_logo_white.webp
+DiversyFund: existing DF-Website/public/images/diversyfund-logo.svg
+Retrieved October 8, 2026. Marks identify Jared Lutz’s described experience, not sponsorship or endorsement.

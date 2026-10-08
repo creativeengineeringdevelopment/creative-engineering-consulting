@@ -21,3 +21,14 @@ This version has breaking changes — APIs, conventions, and file structure may 
 - Absolute marketing URLs and site metadata use `SITE` values in `lib/constants.ts` (update `SITE.url` when the production domain is finalized).
 - The GitHub remote for this project targets the `creativeengineeringdevelopment` organization repository `creative-engineering-consulting`.
 - `.cursor/` is intentionally excluded from version control for local IDE state.
+
+## October 2026 redesign
+
+- Current positioning: founder-led AI-enabled operational software for investment and real-estate businesses; scoped implementation with source access, internal-use rights and optional support.
+- The redesign replaces the old section component directories with route content, Shared, WorkCards, CapabilityDemo and ContactForm. Case content lives in lib/work.ts.
+- Current routes also include /work, /work/[slug], /about and /privacy. Keep existing /audit, /contact and /how-it-works URLs functional.
+- Public contact is CONTACT_EMAIL in lib/constants.ts; the new flow does not use the earlier optional booking environment variables. It prepares an email locally with mailto and copy options and must never claim a message was sent.
+- The capability explorer is explicitly illustrative. Do not imply it has connected accounts or executed live actions.
+- Career narrative and 30,000-investor context come from Jared. Do not invent performance metrics, client endorsements, legal qualifications or regulatory approvals.
+- The $30,000 starting offer is a proposed commercial price, not a historical transaction average. Distinguish source access/internal-use rights from an exclusive IP sale.
+- Keep the cream/cobalt/forest visual direction, responsive layouts, visible focus states and reduced-motion support unless a later request changes direction.

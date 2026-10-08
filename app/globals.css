@@ -2628,7 +2628,7 @@ strong {
 }
 @media (max-width: 520px) {
   .journey-step {
-    grid-template-columns: 59px minmax(0, 1fr);
+    grid-template-columns: 70px minmax(0, 1fr);
     column-gap: 20px;
   }
   .journey-date {

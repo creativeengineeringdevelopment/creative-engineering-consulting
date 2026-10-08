@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { PageHero, CTA, Label, Arrow } from "@/components/Shared";
 import { CapabilityDemo } from "@/components/CapabilityDemo";
+import {
+  SystemShowcase,
+  SystemDeliverables,
+} from "@/components/SystemShowcase";
 export const metadata: Metadata = {
   title: "The offering",
   description:
@@ -13,8 +17,10 @@ export default function Offering() {
       <PageHero
         label="THE OFFERING"
         title="Consulting that leaves you with a system."
-        description="A defined implementation. An operating layer your team can use. A clear agreement about what you receive, what you control and what happens next."
+        description="A working application, connected workflows and AI capabilities configured around your business—with source access, training and a clear handoff. See the systems below."
       />
+      <SystemShowcase />
+      <SystemDeliverables />
       <section className="container section-small capability-section">
         <div>
           <Label>HOW IT FITS TOGETHER</Label>

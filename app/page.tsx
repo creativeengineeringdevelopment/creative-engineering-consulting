@@ -2,7 +2,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { Arrow, CTA, Label } from "@/components/Shared";
 import { WorkCards } from "@/components/WorkCards";
-import { CapabilityDemo } from "@/components/CapabilityDemo";
+import { SystemShowcase } from "@/components/SystemShowcase";
 import { ExperienceBrands, TechnologyStack } from "@/components/Credibility";
 export default function Home() {
   return (
@@ -213,35 +213,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <section className="section container capability-section">
-        <div>
-          <Label>CONSULTING, WITH AN OPERATING LAYER</Label>
-          <h2>
-            Your AI.
-            <br />
-            Your accounts.
-            <br />
-            <em>Real capabilities.</em>
-          </h2>
-          <p className="lede">
-            Give your team a way to work with the systems they already depend
-            on.
-          </p>
-          <p>
-            We connect an agreed set of capabilities to your chosen AI
-            interface—including ChatGPT where its connector and workspace
-            settings support the integration.
-          </p>
-          <p>
-            Your systems enforce access and action limits. The model helps
-            interpret the request; it does not become the permission system.
-          </p>
-          <Link className="text-link" href="/how-it-works">
-            Inside the offering <Arrow />
-          </Link>
-        </div>
-        <CapabilityDemo />
-      </section>
+      <SystemShowcase />
       <TechnologyStack />
       <section className="section offer-section">
         <div className="container">

@@ -119,14 +119,30 @@ export default function Home() {
             <em>Then I went deeper.</em>
           </h2>
           <p>
-            A crypto trading app was the beginning. Securities infrastructure,
-            real-estate operations and AI systems followed. Each chapter brought
-            real users, real responsibilities and another question worth
-            pursuing.
+            In 2021, I launched a decentralized crypto trading app in the Apple
+            Store. Within months, the token behind the project had reached a
+            valuation above $100 million, and the community had grown to more
+            than 15,000 token holders.
+          </p>
+          <div className="founder-turning-point">
+            <p>What did I do?</p>
+            <p>
+              <strong>I left. Immediately.</strong>
+            </p>
+          </div>
+          <p>
+            The world had gone crypto crazy and I was being advised to operate
+            outside of the US. Instead I chose to stay here and learn how to get
+            it done.
           </p>
           <p className="founder-conviction">
-            That’s the perspective I bring: understand the work, get close to
-            the people doing it, and build something they can rely on.
+            Below you will see my work with some of the most notable real estate
+            brands, and the securities infrastructure, real-estate operations
+            and AI systems I built for them that I’m now offering you.
+          </p>
+          <p className="founder-valuation-note">
+            Token valuation refers to peak fully diluted valuation, not company
+            equity.
           </p>
           <Link href="/about" className="text-link">
             The story behind the work <Arrow />

@@ -2645,3 +2645,28 @@ strong {
     padding: 25px;
   }
 }
+
+.founder-turning-point {
+  margin: 26px 0;
+  padding-left: 22px;
+  border-left: 2px solid var(--blue);
+}
+.founder-turning-point p {
+  margin: 0;
+}
+.founder-turning-point p + p {
+  margin-top: 4px;
+}
+.founder-turning-point strong {
+  font-family: var(--font-serif);
+  font-size: 34px;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--blue);
+}
+.founder-introduction-copy .founder-valuation-note {
+  font-size: 11px;
+  color: var(--muted);
+  margin-top: 22px;
+  line-height: 1.5;
+}

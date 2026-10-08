@@ -1,6 +1,8 @@
 "use client";
 import { useRef, useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
+import { appScreenshots } from "@/lib/app-screenshots";
 import { Arrow, Label } from "@/components/Shared";
 import { staffApps, appGroups } from "@/lib/staff-apps";
 
@@ -8,6 +10,7 @@ export function SystemShowcase() {
   const [active, setActive] = useState("relation");
   const detail = useRef<HTMLDivElement>(null);
   const app = staffApps.find((item) => item.id === active)!;
+  const screenshot = appScreenshots[active];
   return (
     <section className="section systems-showcase" id="systems">
       <div className="container">
@@ -21,9 +24,39 @@ export function SystemShowcase() {
             </h2>
           </div>
           <p>
-            Start with software already built. Bring your accounts, your people
-            and the way you work. Explore the apps that can become your
-            operating system.
+            Start with software already built, then make it yours. Customize the
+            interface, change the workflows and extend the functionality with
+            AI-assisted development. Your business defines what comes next.
+          </p>
+        </div>
+        <div className="cap-customize">
+          <div>
+            <Label>BUILT TO BECOME YOURS</Label>
+            <h3>
+              The starting point.
+              <br />
+              <em>You decide what it becomes.</em>
+            </h3>
+          </div>
+          <div>
+            <strong>Change how it looks.</strong>
+            <p>
+              Your brand, layouts, dashboards, navigation and the screens each
+              role needs.
+            </p>
+          </div>
+          <div>
+            <strong>Change how it works.</strong>
+            <p>
+              Your fields, business rules, approvals, integrations and AI
+              actions. Add capabilities as your operation evolves.
+            </p>
+          </div>
+          <p className="cap-customize-note">
+            Describe what you want to change. We use AI-assisted development to
+            build, test and deploy it. Customization can reach the source
+            code—not just a settings menu. Scope, integrations and ongoing
+            changes are agreed with you.
           </p>
         </div>
         <div className="cap-map">
@@ -100,6 +133,38 @@ export function SystemShowcase() {
           aria-live="polite"
           aria-atomic="true"
         >
+          {screenshot && (
+            <figure className="cap-screenshot" key={app.id}>
+              <div className="cap-screenshot-bar">
+                <span>{app.name} / PRODUCT VIEW</span>
+                <a
+                  href={screenshot.src}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  View full size ↗
+                </a>
+              </div>
+              <a
+                href={screenshot.src}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`View ${app.name} screenshot full size`}
+              >
+                <Image
+                  src={screenshot.src}
+                  alt={screenshot.alt}
+                  width={1440}
+                  height={900}
+                  sizes="(max-width: 700px) 100vw, 1100px"
+                />
+              </a>
+              <figcaption>
+                {screenshot.caption} The interface and functionality can be
+                customized for your business.
+              </figcaption>
+            </figure>
+          )}
           <div className="cap-detail-intro">
             <Label>{app.group.toUpperCase()}</Label>
             <h3>{app.name}</h3>
@@ -187,7 +252,7 @@ export function SystemDeliverables() {
           [
             "01",
             "Your working application",
-            "The agreed screens, roles and tools, configured around your team and business processes.",
+            "Your branding, screens, roles and tools. Both the interface and functionality can be adapted around your team and business processes.",
           ],
           [
             "02",

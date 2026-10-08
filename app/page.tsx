@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Arrow, CTA, Label } from "@/components/Shared";
 import { WorkCards } from "@/components/WorkCards";
 import { CapabilityDemo } from "@/components/CapabilityDemo";
@@ -90,6 +91,45 @@ export default function Home() {
           <span>Tokenized assets</span>
           <span>Real estate</span>
           <span>Investor operations</span>
+        </div>
+      </section>
+      <section
+        className="container founder-introduction"
+        aria-labelledby="founder-hook"
+      >
+        <figure className="founder-portrait">
+          <Image
+            src="/jared-lutz-headshot.png"
+            alt="Jared Lutz, founder of Creative Engineering"
+            width={375}
+            height={375}
+            sizes="(max-width: 680px) 240px, 320px"
+          />
+          <figcaption>
+            <strong>Jared Lutz</strong>
+            <span>Founder, Creative Engineering</span>
+          </figcaption>
+        </figure>
+        <div className="founder-introduction-copy">
+          <Label>THE PERSON BEHIND THE SYSTEMS</Label>
+          <h2 id="founder-hook">
+            I learned the business.
+            <br />
+            <em>Then I built the systems.</em>
+          </h2>
+          <p>
+            My path took me through tokenized assets, real-estate acquisitions
+            with Tarek El Moussa’s businesses, and the CTO role at
+            DiversyFund—building an AI-enabled platform for a business serving
+            30,000 active investors.
+          </p>
+          <p className="founder-conviction">
+            That’s the perspective I bring: understand the work, get close to
+            the people doing it, and build something they can rely on.
+          </p>
+          <Link href="/about" className="text-link">
+            The story behind the work <Arrow />
+          </Link>
         </div>
       </section>
       <ExperienceBrands />
@@ -252,36 +292,6 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
-      </section>
-      <section className="section container founder-preview">
-        <div className="founder-monogram" aria-hidden="true">
-          <span>J / L</span>
-          <span className="monogram-note">OPERATOR → ARCHITECT → BUILDER</span>
-        </div>
-        <div>
-          <Label>THE FOUNDER</Label>
-          <h2>
-            Experience before
-            <br />
-            <em>the abstraction.</em>
-          </h2>
-          <p className="lede">
-            “The system only matters if it helps the next person do the work.”
-          </p>
-          <p>
-            My path has run through tokenized assets, securities-related
-            workflows, real-estate acquisitions and investor operations. Each
-            chapter brought the same lesson: the difficult part is connecting
-            the business, the people and the software.
-          </p>
-          <p>
-            Creative Engineering brings that experience together in a focused
-            implementation practice.
-          </p>
-          <Link href="/about" className="text-link">
-            Meet Jared Lutz <Arrow />
-          </Link>
         </div>
       </section>
       <CTA />

@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Image from "next/image";
-import { JourneyTimeline } from "@/components/JourneyTimeline";
 import { Arrow, CTA, Label } from "@/components/Shared";
 import { WorkCards } from "@/components/WorkCards";
 import { CapabilityDemo } from "@/components/CapabilityDemo";
@@ -149,7 +148,6 @@ export default function Home() {
           </Link>
         </div>
       </section>
-      <JourneyTimeline />
       <ExperienceBrands />
       <section className="section container">
         <div className="section-heading">

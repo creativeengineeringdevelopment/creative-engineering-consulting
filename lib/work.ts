@@ -58,7 +58,7 @@ export const cases = [
     problem:
       "Tokenization does not remove the operating requirements of private markets. Investor records, custody integrations and transaction workflows still need to connect across organizations and systems.",
     approach:
-      "Jared led development and integration work with Brassica / BitGo as REtokens prepared for an ATS / broker-dealer application. The work connected his experience in tokenized assets with the practical demands of investor and custody infrastructure.",
+      "Jared architected and led software development for REtokens’ alternative trading platform, including integration work with Brassica / BitGo during ATS / broker-dealer application preparation. The work connected his experience in tokenized assets with the practical demands of investor and custody infrastructure.",
     capabilities: [
       "Development and integration leadership",
       "Brassica / BitGo integration work",
@@ -85,16 +85,24 @@ export const cases = [
     title: "From incoming lead to an acquisition workflow.",
     summary:
       "Data and acquisition systems informed by hands-on exposure to wholesaling, flipping and real-estate operations with Tarek El Moussa’s businesses.",
-    technologies: ["Salesforce", "Snowflake", "Twilio Segment"],
+    technologies: [
+      "Salesforce",
+      "Aircall",
+      "SendMessage",
+      "Zapier",
+      "Real Estate API",
+      "Snowflake",
+      "Twilio Segment",
+    ],
     period: "2024–2025",
-    role: "Data & acquisition systems",
+    role: "Chief Technology Officer",
     metric: "Signal → action",
     metricLabel: "connecting data to the next operating step",
     color: "green",
     problem:
       "Acquisition teams need more than a list of leads. Data has to reach the right person, carry the relevant context and support a clear next step through qualification and follow-up.",
     approach:
-      "Working with Tarek El Moussa’s businesses, Jared designed data infrastructure using Salesforce, Snowflake and Twilio Segment, alongside AI-enabled acquisition and investor systems. The engagement grounded the technical work in wholesaling, flipping and acquisition operations.",
+      "As CTO across Tarek El Moussa’s businesses, Jared brought Salesforce operations, Aircall, SendMessage, Zapier and real-estate data into proprietary AI-enabled operating software for calling, texting and email. At Nestla / NestlaHome, he led the architecture buildout with Anthony Borquez and Grab Labs. The engagement grounded the technical work in wholesaling, flipping and acquisition operations.",
     capabilities: [
       "Unified acquisition and investor data",
       "Salesforce, Snowflake and Twilio Segment infrastructure",

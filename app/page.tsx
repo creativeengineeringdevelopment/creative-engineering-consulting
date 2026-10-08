@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { JourneyTimeline } from "@/components/JourneyTimeline";
 import { Arrow, CTA, Label } from "@/components/Shared";
 import { WorkCards } from "@/components/WorkCards";
 import { CapabilityDemo } from "@/components/CapabilityDemo";
@@ -113,15 +114,15 @@ export default function Home() {
         <div className="founder-introduction-copy">
           <Label>THE PERSON BEHIND THE SYSTEMS</Label>
           <h2 id="founder-hook">
-            I learned the business.
+            I built. I learned.
             <br />
-            <em>Then I built the systems.</em>
+            <em>Then I went deeper.</em>
           </h2>
           <p>
-            My path took me through tokenized assets, real-estate acquisitions
-            with Tarek El Moussa’s businesses, and the CTO role at
-            DiversyFund—building an AI-enabled platform for a business serving
-            30,000 active investors.
+            A crypto trading app was the beginning. Securities infrastructure,
+            real-estate operations and AI systems followed. Each chapter brought
+            real users, real responsibilities and another question worth
+            pursuing.
           </p>
           <p className="founder-conviction">
             That’s the perspective I bring: understand the work, get close to
@@ -132,6 +133,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
+      <JourneyTimeline />
       <ExperienceBrands />
       <section className="section container">
         <div className="section-heading">
